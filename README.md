@@ -1,67 +1,86 @@
-# Presentación del Proyecto: Plataforma de Recomendación de Hoteles
+# Proyecto de Machine Learning con AutoML de Google en HotelWise
 
-## Descripción General
+Este es un proyecto de Machine Learning que utiliza AutoML de Google para entrenar y desplegar modelos de aprendizaje automático.
 
 Bienvenidos, inversionistas. Me complace presentarles nuestro proyecto de una plataforma web innovadora de recomendación de hoteles. Esta aplicación está diseñada para ofrecer a los usuarios experiencias de viaje personalizadas y convenientes, ayudándoles a encontrar los hoteles que mejor se adapten a sus necesidades y preferencias.
+## Descripción del Proyecto
 
-## Tecnologías Utilizadas
+El proyecto tiene como objetivo desarrollar modelos de aprendizaje automático utilizando AutoML de Google utilizando las bases de datos de Google y Yelp para hacer recomendaciones de hoteles.
 
-### 1. Google Cloud Platform (GCP)
+## Flujo de Trabajo
 
-- **Almacenamiento:** Utilizamos Cloud Storage para almacenar los datos en bruto y los resultados intermedios de nuestros procesos.
-- **Orquestación:** Apache Airflow es nuestro orquestador principal para gestionar y programar los flujos de trabajo de la plataforma.
-- **Análisis:** Utilizamos BigQuery para análisis de datos y generación de informes.
+Diagrama de Gantt
+<p align="center">
+    <img src="HotWiseML/screenshots/Gantt_Proyecto_Grupal_HenryDS.png">
+</p>
 
-### 2. Firebase (Firestore)
+## Stack Tecnológico
 
-- **Base de Datos:** Firestore actúa como nuestra base de datos principal, proporcionando un almacenamiento escalable y en tiempo real para la gestión de datos de usuarios y preferencias.
+- **Google Cloud Platform (GCP)**:
+  - Utilizaremos Google Cloud Platform para acceder a los servicios de AutoML y alojar nuestro proyecto.
 
-### 3. Locker para Análisis
+- **AutoML de Google**:
+  - Utilizaremos AutoML de Google para entrenar y desplegar nuestros modelos de aprendizaje automático.
 
-- **Herramienta de Análisis:** Hemos implementado Locker para el análisis de datos. Esta herramienta nos permite explorar y visualizar datos de manera eficiente, facilitando la toma de decisiones basada en datos.
+- **Python**:
+  - Utilizaremos Python como lenguaje de programación principal para desarrollar y ejecutar nuestro código.
 
-## Ingeniería de Datos
+- **Bibliotecas de Python**:
+  - Las Bibliotecas de aprendizaje automático serán utilizadas según sea necesario para el desarrollo de modelos.
 
-Para garantizar la integridad y calidad de los datos, seguimos un enfoque robusto en ingeniería de datos:
+- **Entorno de Desarrollo**:
+  - Visual Studio Code para escribir y ejecutar nuestro código Python.
 
-1. **Almacenamiento en GCP:**
-   
-   - Los datos en bruto se almacenan en Cloud Storage, permitiendo una fácil escalabilidad y acceso.
+- **Git y GitHub**:
+  - Utilizaremos Git y GitHub para el control de versiones del código y la colaboración en equipo.
 
-2. **Procesamiento con Airflow:**
-   
-   - Utilizamos Apache Airflow para orquestar y automatizar los flujos de trabajo de limpieza y transformación de datos.
+## Requisitos de Instalación
 
-3. **Firestore como Base de Datos:**
-   
-   - Los datos limpios y procesados se almacenan eficientemente en Firestore para su posterior uso en la plataforma.
+- Instalar Python: [Python.org](https://www.python.org/downloads/)
+- Configurar Google Cloud Platform: [Google Cloud Platform](https://cloud.google.com/)
+- Modelos a instalar...
 
-## Análisis de Datos
+## Instalación
 
-Nuestro enfoque de análisis se centra en obtener información valiosa y proporcionar insights para la toma de decisiones:
+Asegúrate de tener Python instalado. Recomiendo usar un entorno virtual para instalar las dependencias del proyecto.
 
-1. **Locker:**
-   
-   - Utilizamos Locker para explorar visualmente datos y descubrir patrones significativos.
+1. Clona este repositorio en tu máquina local.
+2. Crea un entorno virtual para trabajar 
+3. Instala las dependencias necesarias utilizando el gestor de paquetes de tu elección (por ejemplo, npm o pip).
 
-2. **BigQuery:**
-   
-   - Realizamos análisis avanzados en BigQuery para obtener información sobre tendencias de usuarios, demanda de hoteles y otros aspectos clave.
+### Procedimiento
 
-## Sistema de Recomendación
+```bash
+git clone https://github.com/jgutierrezladino/HotelWise/tree/HotelWiseML
 
-Nuestra plataforma implementa un sistema de recomendación basado en la similitud del coseno para proporcionar sugerencias personalizadas:
+pip install -r requirements.txt
 
-1. **Tecnología de GCP:**
-   
-   - Utilizamos las herramientas de aprendizaje automático de GCP para implementar un algoritmo de similitud del coseno.
+...
 
-2. **Datos en Firestore:**
-   
-   - El sistema de recomendación utiliza los datos almacenados en Firestore, incluidas las preferencias y comportamientos pasados de los usuarios.
+```
+## Contribución
 
-3. **Personalización:**
-   
-   - El sistema se adapta continuamente a los cambios en las preferencias del usuario, brindando recomendaciones más precisas con el tiempo.
+¡Estamos abiertos a contribuciones! Si tienes ideas de mejora, problemas que reportar o características nuevas que te gustaría añadir, no dudes en abrir una solicitud de extracción o un problema en este repositorio.
 
-En resumen, nuestra plataforma ofrece una experiencia de recomendación de hoteles única y personalizada, respaldada por tecnologías sólidas y un enfoque integral de ingeniería y análisis de datos. Estamos emocionados por el potencial de esta propuesta y esperamos colaborar con ustedes para llevar esta visión a la realidad. ¡Gracias!
+## Créditos
+
+- Desarrollado por (Equipo).
+- Logotipo diseñado por (Diseñador).
+
+## Licencia
+
+Este proyecto está bajo las Licencias:
+
+- [Licencia GPL 3.0](LICENSE-GPL).
+- [Licencia MIT](LICENSE-MIT).
+- [Licencia Apache 2.0](LICENSE-APACHE).
+
+## Contacto
+
+Si tienes alguna pregunta, comentario o problema con la página web de HotReviews, no dudes en ponerte en contacto con nosotros en [mdallanegra@icloud.com](mailto:mdallanegra@icloud.com).
+
+## Enlaces adicionales
+
+- [Documentación completa del proyecto](/HotelWise)
+- [Repositorio de código fuente](https://github.com/jgutierrezladino/HotelWise/tree/HotelWiseML)
+- [Sitio web en vivo](https://www.soyhenry.com)
