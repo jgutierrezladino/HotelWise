@@ -8,7 +8,7 @@ La página web de HotReviews es una plataforma diseñada para compartir y encont
 
 Diagrama de Gantt
 <p align="center">
-    <img src="HotReviews/screenshots/Gantt_Proyecto_Grupal_HenryDS.png">
+    <img src="HotelWise/screenshots/Gantt_Proyecto_Grupal_HenryDS.png">
 </p>
 
 ## Instalación
@@ -22,7 +22,7 @@ Asegúrate de tener Python instalado. Recomiendo usar un entorno virtual para in
 ### Procedimiento
 
 ```bash
-git clone https://github.com/mdallanegra/LAB_PG.git
+git clone https://github.com/jgutierrezladino/HotelWise/tree/HotelWiseWeb.git
 
 python3 -m venv myenv
 source myenv/bin/activate
