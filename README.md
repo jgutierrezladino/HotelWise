@@ -2,7 +2,7 @@
 
 ## Descripción del proyecto
 
-La página web de HotReviews es una plataforma diseñada para compartir y encontrar reseñas de hoteles. Permite a los usuarios buscar reseñas de hoteles por ubicación, clasificación y otros criterios, así como publicar sus propias reseñas y opiniones.
+La página web de HotelWise es una plataforma diseñada para compartir y encontrar reseñas de hoteles. Permite a los usuarios buscar reseñas de hoteles por ubicación, clasificación y otros criterios, así como publicar sus propias reseñas y opiniones.
 
 ## Flujo de Trabajo
 
@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 1. Dirigete el directorio principal ```/HotelWise```
 2. Ejecuta la aplicación utilizando el comando `npm start` o `python manage.py runserver`.
-3. Abre tu navegador web y navega a la URL proporcionada para acceder a la página web de HotReviews.
+3. Abre tu navegador web y navega a la URL proporcionada para acceder a la página web de HotelWise.
 4. Explora las diferentes funcionalidades de la página web, como búsqueda de reseñas, publicaciones, etc.
 
 ## Frameworks de Trabajo
@@ -59,18 +59,18 @@ Este proyecto utiliza los siguientes lenguajes de programación:
 - Mockup de pantalla de la página de inicio:
 
 <p align="center">
-    <img src="HotelWise/screenshots/Web_HotReviews_01_HOME_drawio.png"  height=400>
+    <img src="HotelWise/screenshots/Web_HotelWise_01_HOME_drawio.png"  height=400>
 </p>
 
 - Mockup de pantalla de la búsqueda de reseñas:
 <p align="center">
-    <img src="HotelWise/screenshots/Web_HotReviews_02_MAPS_drawio.png"  height=400>
+    <img src="HotelWise/screenshots/Web_HotelWise_02_MAPS_drawio.png"  height=400>
 </p>
 
 - Primer print de pantalla de la página HOME:
 
 <p align="center">
-    <img src="HotelWise/screenshots/Web_HotReviews_01_HOME.png"  height=400>
+    <img src="HotelWise/screenshots/Web_HotelWise_01_HOME.png"  height=400>
 </p>
 
 ## Contribución
@@ -92,7 +92,7 @@ Este proyecto está bajo las Licencias:
 
 ## Contacto
 
-Si tienes alguna pregunta, comentario o problema con la página web de HotReviews, no dudes en ponerte en contacto con nosotros en [mdallanegra@icloud.com](mailto:mdallanegra@icloud.com).
+Si tienes alguna pregunta, comentario o problema con la página web de HotelWise, no dudes en ponerte en contacto con nosotros en [mdallanegra@icloud.com](mailto:mdallanegra@icloud.com).
 
 ## Enlaces adicionales
 
