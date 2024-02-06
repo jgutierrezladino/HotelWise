@@ -10,7 +10,7 @@ El proyecto tiene como objetivo desarrollar modelos de aprendizaje automático u
 
 Diagrama de Gantt
 <p align="center">
-    <img src="HotWiseML/screenshots/Gantt_Proyecto_Grupal_HenryDS.png">
+    <img src="HotelWiseML/screenshots/Gantt_Proyecto_Grupal_HenryDS.png">
 </p>
 
 ## Stack Tecnológico
@@ -80,6 +80,6 @@ Si tienes alguna pregunta, comentario o problema con la página web de HotReview
 
 ## Enlaces adicionales
 
-- [Documentación completa del proyecto](/HotelWise)
+- [Documentación completa del proyecto](/HotelWiseML)
 - [Repositorio de código fuente](https://github.com/jgutierrezladino/HotelWise/tree/HotelWiseML)
 - [Sitio web en vivo](https://www.soyhenry.com)
