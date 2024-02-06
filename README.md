@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 ## Uso
 
-1. Dirigete el directorio principal ```/HotReviews```
+1. Dirigete el directorio principal ```/HotelWise```
 2. Ejecuta la aplicación utilizando el comando `npm start` o `python manage.py runserver`.
 3. Abre tu navegador web y navega a la URL proporcionada para acceder a la página web de HotReviews.
 4. Explora las diferentes funcionalidades de la página web, como búsqueda de reseñas, publicaciones, etc.
@@ -59,18 +59,18 @@ Este proyecto utiliza los siguientes lenguajes de programación:
 - Mockup de pantalla de la página de inicio:
 
 <p align="center">
-    <img src="HotReviews/screenshots/Web_HotReviews_01_HOME_drawio.png"  height=400>
+    <img src="HotelWise/screenshots/Web_HotReviews_01_HOME_drawio.png"  height=400>
 </p>
 
 - Mockup de pantalla de la búsqueda de reseñas:
 <p align="center">
-    <img src="HotReviews/screenshots/Web_HotReviews_02_MAPS_drawio.png"  height=400>
+    <img src="HotelWise/screenshots/Web_HotReviews_02_MAPS_drawio.png"  height=400>
 </p>
 
 - Primer print de pantalla de la página HOME:
 
 <p align="center">
-    <img src="HotReviews/screenshots/Web_HotReviews_01_HOME.png"  height=400>
+    <img src="HotelWise/screenshots/Web_HotReviews_01_HOME.png"  height=400>
 </p>
 
 ## Contribución
@@ -96,6 +96,7 @@ Si tienes alguna pregunta, comentario o problema con la página web de HotReview
 
 ## Enlaces adicionales
 
-- [Documentación completa del proyecto](/HotReviews)
-- [Repositorio de código fuente](https://github.com/mdallanegra/LAB_PG.git)
+- [Documentación completa del proyecto](/HotelWise)
+- [Repositorio de código fuente](https://github.com/jgutierrezladino/HotelWise/tree/HotelWiseWeb.git)
+- https://github.com/jgutierrezladino/HotelWise.git
 - [Sitio web en vivo](https://www.soyhenry.com)
