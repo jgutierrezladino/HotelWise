@@ -8,7 +8,7 @@ La página web de HotelWise es una plataforma diseñada para compartir y encontr
 
 Diagrama de Gantt
 <p align="center">
-    <img src="HotelWise/screenshots/Gantt_Proyecto_Grupal_HenryDS.png">
+    <img src="HotelWise/screenshots/Gantt_Proyecto_Grupal_HenryDS.Web.png">
 </p>
 
 ## Instalación
