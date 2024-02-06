@@ -1,5 +1,5 @@
 # Unused Project Folders
-/HotelWise/home/templates/pruebas/
+HotelWise/home/templates/pruebas/
 
 # Editors
 .vscode/
@@ -9,7 +9,7 @@
 .vagrant/
 
 # Mac/OSX
-.DS_Store/
+.DS_Store
 
 # Windows
 Thumbs.db
