@@ -98,5 +98,4 @@ Si tienes alguna pregunta, comentario o problema con la página web de HotReview
 
 - [Documentación completa del proyecto](/HotelWise)
 - [Repositorio de código fuente](https://github.com/jgutierrezladino/HotelWise/tree/HotelWiseWeb.git)
-- https://github.com/jgutierrezladino/HotelWise.git
 - [Sitio web en vivo](https://www.soyhenry.com)
