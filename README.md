@@ -1,4 +1,4 @@
-# Página web de HotReviews
+# Página web de HotelWise
 
 ## Descripción del proyecto
 
