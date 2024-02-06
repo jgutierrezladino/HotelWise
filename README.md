@@ -2,7 +2,6 @@
 
 Este es un proyecto de Machine Learning que utiliza AutoML de Google para entrenar y desplegar modelos de aprendizaje automático.
 
-Bienvenidos, inversionistas. Me complace presentarles nuestro proyecto de una plataforma web innovadora de recomendación de hoteles. Esta aplicación está diseñada para ofrecer a los usuarios experiencias de viaje personalizadas y convenientes, ayudándoles a encontrar los hoteles que mejor se adapten a sus necesidades y preferencias.
 ## Descripción del Proyecto
 
 El proyecto tiene como objetivo desarrollar modelos de aprendizaje automático utilizando AutoML de Google utilizando las bases de datos de Google y Yelp para hacer recomendaciones de hoteles.
