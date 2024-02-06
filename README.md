@@ -10,7 +10,7 @@ El proyecto tiene como objetivo desarrollar modelos de aprendizaje automático u
 
 Diagrama de Gantt
 <p align="center">
-    <img src="HotelWiseML/screenshots/Gantt_Proyecto_Grupal_HenryDS.png">
+    <img src="HotelWiseML/screenshots/Gantt_Proyecto_Grupal_HenryDS.ML.png">
 </p>
 
 ## Stack Tecnológico
