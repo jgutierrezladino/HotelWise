@@ -19,13 +19,38 @@ Diagrama de Gantt
   - Utilizaremos Google Cloud Platform para acceder a los servicios de AutoML y alojar nuestro proyecto.
 
 - **AutoML de Google**:
-  - Utilizaremos AutoML de Google para entrenar y desplegar nuestros modelos de aprendizaje automático.
+  - Utilizaremos AutoML de Google para entrenar y desplegar nuestros modelos de aprendizaje automático. 
+ 
+  Dentro de esta plataforma podremos utilizar las siguientes funciones y bibliotecas para implementar los modelos de recomendación:
+    - BigQuery ML:
+        BigQuery ML es una función dentro de Google BigQuery que permite a los usuarios crear y ejecutar modelos de aprendizaje automático directamente dentro del almacén de datos en la nube de BigQuery. Permite a los analistas y científicos de datos construir y desplegar modelos de machine learning usando SQL estándar, sin necesidad de mover datos a otro lugar. BigQuery ML admite varios tipos de modelos, como modelos de regresión, clasificación y clustering, y es adecuado para problemas de predicción y análisis de datos a gran escala.
+    - TensorFlow Recommenders:
+        TensorFlow Recommenders es una biblioteca de TensorFlow diseñada específicamente para construir y desplegar sistemas de recomendación utilizando modelos de aprendizaje profundo. Proporciona una variedad de algoritmos y herramientas que simplifican el proceso de construcción y entrenamiento de modelos de recomendación personalizados. TensorFlow Recommenders es especialmente útil para proyectos que requieren modelos avanzados de recomendación, como sistemas de recomendación de productos en línea, recomendaciones de contenido y sistemas de filtrado colaborativo.
+    - AI Platform de Google Cloud:
+        Google Cloud AI Platform es un servicio integral de Google Cloud diseñado para ayudar a las organizaciones a construir, entrenar, implementar y administrar modelos de machine learning a escala. Ofrece una variedad de servicios y herramientas que facilitan el desarrollo de modelos de machine learning, incluyendo TensorFlow, scikit-learn y otros frameworks populares. AI Platform proporciona capacidades de procesamiento escalable, administración de recursos, monitoreo de modelos y herramientas de colaboración para equipos de científicos de datos y desarrolladores de machine learning.
+    - Cloud Functions:
+        Google Cloud Functions es un servicio de computación sin servidor que permite a los desarrolladores ejecutar código en respuesta a eventos en la nube sin necesidad de aprovisionar o administrar servidores. Permite a los desarrolladores crear funciones pequeñas y modulares que se ejecutan de forma independiente en la nube, escalando automáticamente según la demanda. Cloud Functions es adecuado para implementar lógica empresarial, procesamiento de eventos, integraciones de sistemas y tareas de automatización en la nube de Google.
+
+  Los modelos que pueden implementrse serán:
+
+    - Vecinos más cercanos (Nearest Neighbors):
+        Este es un enfoque simple que recomienda elementos similares a los que un usuario ha interactuado anteriormente. Se basa en encontrar elementos similares en función de la distancia entre ellos en un espacio de características.
+    - Filtro colaborativo (Collaborative Filtering):
+        Este enfoque recomienda elementos basados en la información de preferencias de otros usuarios. Puede ser basado en usuario (User-Based Collaborative Filtering) o basado en elemento (Item-Based Collaborative Filtering).
+    - Modelos de factorización matricial (Matrix Factorization Models):
+        Estos modelos descomponen la matriz de interacciones usuario-elemento en matrices de características latentes para usuarios y elementos. Algunos ejemplos incluyen SVD (Descomposición de Valor Singular), Factorización QR, y Factorización de Matriz No Negativa (NMF).
+    - Modelos de factorización profunda (Deep Factorization Models):
+        Estos modelos utilizan redes neuronales profundas para aprender representaciones latentes de usuarios y elementos, lo que puede mejorar la calidad de las recomendaciones. Ejemplos incluyen Autoencoders y Redes Neuronales Convolucionales (CNN) para recomendaciones de imágenes.
+    - Modelos de contenido (Content-Based Models):
+        Estos modelos recomiendan elementos similares a los que un usuario ha interactuado anteriormente en función de características de los elementos, como metadatos o atributos. Utilizan técnicas de aprendizaje automático para calcular la similitud entre elementos.
+    - Modelos de aprendizaje por refuerzo (Reinforcement Learning Models):
+        Estos modelos recomiendan elementos basados en interacciones de usuario en tiempo real y el objetivo de maximizar una recompensa a largo plazo. Pueden ser útiles en entornos donde las interacciones de los usuarios tienen un impacto dinámico en las recomendaciones.
 
 - **Python**:
   - Utilizaremos Python como lenguaje de programación principal para desarrollar y ejecutar nuestro código.
 
 - **Bibliotecas de Python**:
-  - Las Bibliotecas de aprendizaje automático serán utilizadas según sea necesario para el desarrollo de modelos.
+  - Las Bibliotecas de aprendizaje automático serán utilizadas según sea necesario para el desarrollo de modelos que se eligirán para trabajar con AutoML.
 
 - **Entorno de Desarrollo**:
   - Visual Studio Code para escribir y ejecutar nuestro código Python.
