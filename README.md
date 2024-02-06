@@ -59,12 +59,12 @@ Este proyecto utiliza los siguientes lenguajes de programación:
 - Mockup de pantalla de la página de inicio:
 
 <p align="center">
-    <img src="HotelWise/screenshots/Web_HotelWise_01_HOME_drawio.png"  height=400>
+    <img src="HotelWise/screenshots/Web_HotReviews_01_HOME_drawio.png"  height=400>
 </p>
 
 - Mockup de pantalla de la búsqueda de reseñas:
 <p align="center">
-    <img src="HotelWise/screenshots/Web_HotelWise_02_MAPS_drawio.png"  height=400>
+    <img src="HotelWise/screenshots/Web_HotReviews_02_MAPS_drawio.png"  height=400>
 </p>
 
 - Primer print de pantalla de la página HOME:
