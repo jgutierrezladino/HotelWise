@@ -5,12 +5,12 @@
 <details>
   <summary>Tabla de Contenidos</summary>
   <ol>
-    <li><a href="#Descripcion General">Descripción Generaln</a></li>
+    <li><a href="#Descripcion General">Descripción General</a></li>
     <li><a href="#Objetivo">Objetivo</a></li>
-    <li><a href="#Tecnologias Utilizadas">Tecnologías utilizadas</a></li>
-    <li><a href="#Ingenieria de Datos">Ingeniería de Datos</a></li>
-    <li><a href="#Analisis de Datos">Análisis de Datos</a></li>
-    <li><a href="#Sistema de Recomendacion">Sistema de Recomendación</a></li>
+    <li><a href="#Tecnologias Utilizadas">Tecnologias utilizadas</a></li>
+    <li><a href="#Ingenieria de Datos">Ingenieria de Datos</a></li>
+    <li><a href="#Analisis de Datos">Analisis de Datos</a></li>
+    <li><a href="#Sistema de Recomendacion">Sistema de Recomendacion</a></li>
   </ol>
 </details>
 
