@@ -2,7 +2,7 @@
     <img src="HotelWiseML/_src/HotelWiseLogo.Horizontal.png">
 </p>
 
-# Proyecto de Machine Learning con AutoML de Google en HotelWise
+# Proyecto de Machine Learning con AutoML de Google en el Proyecto
 
 Este es un proyecto de Machine Learning que utiliza AutoML de Google para entrenar y desplegar modelos de aprendizaje automático.
 
