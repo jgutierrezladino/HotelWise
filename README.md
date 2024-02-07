@@ -292,6 +292,6 @@ En este proyecto, se emplearán las siguientes tecnologías para la gestión y a
 
 ### *Integración de Tecnologías*
 
-- *Complementariedad:* La integración de BigQuery y Looker Studio ofrece una solución completa para el almacenamiento, procesamiento, análisis y visualización de datos. Esta combinación nos proporciona las herramientas necesarias para obtener información significativa a partir de nuestros datos y tomar decisiones informadas.
+- **Complementariedad:** La integración de BigQuery, Looker Studio y ClickUp ofrece una solución completa para el almacenamiento, procesamiento, análisis, visualización y gestión de proyectos de datos. Esta combinación nos proporciona las herramientas necesarias para obtener información significativa a partir de nuestros datos, tomar decisiones informadas y gestionar eficazmente el proyecto.
 
-- *Escalabilidad:* Tanto BigQuery como Looker Studio son soluciones altamente escalables que pueden adaptarse a las necesidades cambiantes del proyecto a medida que crece y se desarrolla.
+- **Escalabilidad:** Todas las tecnologías seleccionadas son altamente escalables y pueden adaptarse a las necesidades cambiantes del proyecto a medida que crece y se desarrolla.
