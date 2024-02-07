@@ -5,12 +5,12 @@
 <details>
   <summary>Tabla de Contenidos</summary>
   <ol>
-    <li><a href="#Descripción General">Descripción Generaln</a></li>
+    <li><a href="#Descripcion General">Descripción Generaln</a></li>
     <li><a href="#Objetivo">Objetivo</a></li>
-    <li><a href="#Tecnologías Utilizadas">Tecnologías utilizadas</a></li>
-    <li><a href="#Ingeniería de Datos">Ingeniería de Datos</a></li>
-    <li><a href="#Análisis de Datos">Análisis de Datos</a></li>
-    <li><a href="#Sistema de Recomendación">Sistema de Recomendación</a></li>
+    <li><a href="#Tecnologias Utilizadas">Tecnologías utilizadas</a></li>
+    <li><a href="#Ingenieria de Datos">Ingeniería de Datos</a></li>
+    <li><a href="#Analisis de Datos">Análisis de Datos</a></li>
+    <li><a href="#Sistema de Recomendacion">Sistema de Recomendación</a></li>
   </ol>
 </details>
 
@@ -23,7 +23,7 @@ Bienvenidos, inversionistas. Me complace presentarles nuestro proyecto de una pl
 La tecnologia avanza a pasos agigantados, y por ello el aprovechamiento de los datos en cuanto a lo que busca el cliente final termina siendo lo mas importante a la hora de poder conectar con el, debido a esto vimos una oportunidad de mejorar 
 
 
-## Tecnologías Utilizadas
+## Tecnologias Utilizadas
 
 ### 1. Google Cloud Platform (GCP) 
 [![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://console.cloud.google.com/welcome)
@@ -64,7 +64,7 @@ Para garantizar la integridad y calidad de los datos, seguimos un enfoque robust
    
    - Los datos limpios y procesados se almacenan eficientemente en Firestore para su posterior uso en la plataforma.
 
-## Análisis de Datos
+## Analisis de Datos
 
 Nuestro enfoque de análisis se centra en obtener información valiosa y proporcionar insights para la toma de decisiones:
 
@@ -80,7 +80,7 @@ Nuestro enfoque de análisis se centra en obtener información valiosa y proporc
    
    - Realizamos análisis avanzados en BigQuery para obtener información sobre tendencias de usuarios, demanda de hoteles y otros aspectos clave.
 
-## Sistema de Recomendación
+## Sistema de Recomendacion
 
 Nuestra plataforma implementa un sistema de recomendación basado en la similitud del coseno para proporcionar sugerencias personalizadas:
 
