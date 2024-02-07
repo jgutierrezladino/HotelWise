@@ -2,9 +2,9 @@
     <img src="HotelWise/_src/HotelWiseLogo.Horizontal.png">
 </p>
 
-# Página web de HotelWise
+# Página web del Proyecto
 
-## Descripción del proyecto
+## Descripción
 
 La página web de HotelWise es una plataforma diseñada para compartir y encontrar reseñas de hoteles. Permite a los usuarios buscar reseñas de hoteles por ubicación, clasificación y otros criterios, así como publicar sus propias reseñas y opiniones.
 
