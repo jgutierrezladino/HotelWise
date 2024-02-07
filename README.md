@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="HotelWise/_src/HotelWiseLogo.Horizontal.png">
+</p>
+
 # Página web de HotelWise
 
 ## Descripción del proyecto
