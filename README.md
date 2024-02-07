@@ -22,7 +22,8 @@
 
 ## Descripción
 
-La página web de HotelWise es una plataforma diseñada para compartir y encontrar reseñas de hoteles. Permite a los usuarios buscar reseñas de hoteles por ubicación, clasificación y otros criterios, así como publicar sus propias reseñas y opiniones.
+La página web de HotelWise es una plataforma diseñada para crear recomendaciones de hoteles.
+Permitiendo a los usuarios encontrar la mejor opcion según sus criterios de busqueda, los cuales son curados por una herramienta de Machine Learning para ofrecerle la mejor experiencia en su estadía.
 
 ## Flujo de Trabajo
 
