@@ -1,3 +1,7 @@
+<div align="center">
+
+![wink](imagenes/HotelWiseLogo.png)
+</div>
 
 # Proyecto de Data Analytics: HotelWise
 
@@ -267,12 +271,14 @@ El Índice de Delitos por Área (IDA) proporciona una medida relativa de la segu
 En este proyecto, se emplearán las siguientes tecnologías para la gestión y análisis de datos:
 
 ### **BigQuery**
+[![BigQuery](https://img.shields.io/badge/BigQuery-007ACC?style=for-the-badge&logo=lock&logoColor=white)](https://cloud.google.com/looker?hl=es)
 
 - *Descripción:* BigQuery es un almacén de datos completamente administrado y altamente escalable que permite analizar grandes conjuntos de datos en tiempo real mediante SQL.
 
 - *Utilidad:* Utilizaremos BigQuery para almacenar y procesar grandes volúmenes de datos de manera eficiente, lo que nos permitirá realizar análisis de datos complejos y consultas en tiempo real.
 
 ### **Looker Studio**
+[![Loocker](https://img.shields.io/badge/Loocker-333333?style=for-the-badge&logo=lock&logoColor=white)](https://cloud.google.com/looker?hl=es)
 
 - *Descripción:* Looker Studio es una plataforma de análisis de datos que proporciona herramientas poderosas para explorar y visualizar datos, crear paneles interactivos y compartir conocimientos.
 
