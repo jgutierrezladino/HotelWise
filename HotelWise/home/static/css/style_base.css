@@ -188,3 +188,21 @@ div.incardpos {
     justify-content: center;
     align-items: center;
 }
+
+@font-face {
+    font-family: 'Cocogoose Pro Letterpress Narrow';
+    src: url('/static/fonts/cocogoose-pro-letterpress-narrow-webfont.woff') format('woff'),
+        url('/static/fonts/cocogoose-pro-letterpress-narrow-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hotelwise-title {
+    font-family: 'Cocogoose Pro Letterpress Narrow';
+    font-size: 4vw;
+    font-weight: Bold;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 13%;
+    color: rgb(40, 40, 125);
+}

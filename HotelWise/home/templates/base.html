@@ -46,7 +46,6 @@
         <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
         <script type="text/javascript" src="{% static 'js/jquery-ui.min.js' %}"></script> 
 
-
         <script type="text/javascript" src="{% static 'js/script_base_head.js' %}"></script>
 
         <!-- Los estilos de la Pagina Base están en un archivo style_base.css -->
@@ -62,9 +61,8 @@
             <!-- <div class="d-block d-md-none"> -->
             <div class="row">
                 <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #FFF2CC">
-                    <a class="navbar-brand" href="{% url 'home' %}">
-                        <img src="/static/imagenes/survey.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                        HotelWise
+                    <a class="navbar-brand" href="{% url 'home' %}" style="margin-left: 20px">
+                        <img src="/static/imagenes/HotelWiseLogo.Horizontal.png" height="40" class="d-inline-block align-top" alt="">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -107,7 +105,7 @@
                     <div class="row">
                         <div class="col-6">
                             <a class="enlace" href="{% url 'home' %}">
-                                <h1 class="uno">HotelWise</h1>
+                                <h1 class="hotelwise-title">HotelWise</h1>
                                 <p class="uno">
                                     Ayudando a mejorar el marketing de su empresa
                                 </p>
@@ -115,8 +113,8 @@
                         </div>
                         <div class="col-6 text-center"style="margin-top: 3%; margin-bottom: 3%">
                             <a href="{% url 'home' %}">
-                                <img id="img_prueba" src="/static/imagenes/survey.png"
-                                    class="img-responsive" width="80%"
+                                <img id="img_prueba" src="/static/imagenes/HotelWiseLogo.Icon.png"
+                                    class="img-responsive" width="60%"
                                     alt="Responsive image"></a>
                         </div>
                     </div>
