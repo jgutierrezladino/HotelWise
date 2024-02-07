@@ -9,7 +9,7 @@
 ---
 Informe: Plataforma HotelWise, Kpis, 
 
-# **Introcucción**
+# **Introducción**
 
 ---
 
@@ -271,7 +271,7 @@ El Índice de Delitos por Área (IDA) proporciona una medida relativa de la segu
 En este proyecto, se emplearán las siguientes tecnologías para la gestión y análisis de datos:
 
 ### **BigQuery**
-[![BigQuery](https://img.shields.io/badge/BigQuery-007ACC?style=for-the-badge&logo=lock&logoColor=white)](https://cloud.google.com/looker?hl=es)
+[![BigQuery](https://img.shields.io/badge/BigQuery-007ACC?style=for-the-badge&logo=lock&logoColor=white)](https://cloud.google.com/bigquery?hl=es)
 
 - *Descripción:* BigQuery es un almacén de datos completamente administrado y altamente escalable que permite analizar grandes conjuntos de datos en tiempo real mediante SQL.
 
@@ -283,6 +283,12 @@ En este proyecto, se emplearán las siguientes tecnologías para la gestión y a
 - *Descripción:* Looker Studio es una plataforma de análisis de datos que proporciona herramientas poderosas para explorar y visualizar datos, crear paneles interactivos y compartir conocimientos.
 
 - *Utilidad:* Integraremos Looker Studio para crear visualizaciones dinámicas, paneles interactivos y reportes personalizados basados en los datos almacenados en BigQuery. Esto nos permitirá extraer insights valiosos y comunicar de manera efectiva los resultados del análisis a los stakeholders.
+
+### ClickUp
+[![ClickUp](https://img.shields.io/badge/ClickUp-7B68E?style=for-the-badge&logo=lock&logoColor=white)](https://app.clickup.com/)
+
+- **Descripción:** ClickUp es una plataforma de gestión de proyectos y tareas que ofrece herramientas para la planificación, seguimiento y colaboración en equipos.
+- **Utilidad:** Integraremos ClickUp para organizar tareas, asignar responsabilidades y mantener un seguimiento del progreso del proyecto. Con sus características de colaboración y seguimiento de tiempo, ClickUp facilitará la gestión eficiente del proyecto y la coordinación del equipo.
 
 ### *Integración de Tecnologías*
 
