@@ -1,6 +1,6 @@
 <div align="center">
 
-![wink](src\logo\Hotelwise.PNG)
+![wink](src/logo/Hotelwise.PNG)
 </div>
 
 
