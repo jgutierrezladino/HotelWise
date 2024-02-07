@@ -25,7 +25,7 @@ Bienvenidos, inversionistas. Me complace presentarles nuestro proyecto de una pl
 
 ## Objetivo
 
-La tecnologia avanza a pasos agigantados, y por ello el aprovechamiento de los datos en cuanto a lo que busca el cliente final termina siendo lo mas importante a la hora de poder conectar con el, debido a esto vimos una oportunidad de mejorar 
+La tecnologia avanza a pasos agigantados, y por ello el aprovechamiento de los datos en cuanto a lo que busca el cliente final termina siendo lo mas importante a la hora de poder conectar con el, debido a esto vimos una oportunidad de mejorar la interaccion de los usuarios conociendo a mayor detalle sus necesidades y ofrecerles justo lo que necesitan sin llenar tantos espacios.
 
 
 ## Nosotros
@@ -90,21 +90,23 @@ Respecto a nuestra competencia nos diferenciamos en el hecho de que no solo eval
 
 - **Base de Datos:** Firestore actúa como nuestra base de datos principal, proporcionando un almacenamiento escalable y en tiempo real para la gestión de datos de usuarios y preferencias.
 
-### 3. Locker para Análisis
-[![Locker](https://img.shields.io/badge/Locker-333333?style=for-the-badge&logo=lock&logoColor=white)](https://cloud.google.com/looker?hl=es)
+### 3. Looker para Análisis
+[![Loocker](https://img.shields.io/badge/Loocker-333333?style=for-the-badge&logo=lock&logoColor=white)](https://cloud.google.com/looker?hl=es)
 
-- **Herramienta de Análisis:** Hemos implementado Locker para el análisis de datos. Esta herramienta nos permite explorar y visualizar datos de manera eficiente, facilitando la toma de decisiones basada en datos.
+- **Herramienta de Análisis:** Hemos implementado Loocker para el análisis de datos. Esta herramienta nos permite explorar y visualizar datos de manera eficiente, facilitando la toma de decisiones basada en datos.
 ### 4. Otras tecnologías
 
 [![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)](https://matplotlib.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-%23FAC949.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)](https://matplotlib.org/)
 [![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://www.microsoft.com/es-es/power-platform/products/power-bi)
 [![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
 [![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)](https://www.notion.so/)
+[![Polars](https://img.shields.io/badge/polars-%23013243.svg?style=for-the-badge&logo=polars&logoColor=white)](https://pola.rs/)
+
 ## Ingeniería de Datos
 
 Para garantizar la integridad y calidad de los datos, seguimos un enfoque robusto en ingeniería de datos:
