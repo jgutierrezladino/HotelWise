@@ -60,7 +60,7 @@ pip install -r requirements.txt
 
 ## Frameworks de Trabajo
 
-Este proyecto utiliza los siguientes frameworks de trabajo:
+Herramientas y entornos que utiliza el proyecto:
 
 - ```Django```: Framework de desarrollo web de alto nivel en Python que fomenta el desarrollo rápido y limpio.
 - ```Bootstrap```: Framework que facilita la creación de interfaces de usuario responsivas y modernas para sitios y aplicaciones web.
@@ -68,7 +68,7 @@ Este proyecto utiliza los siguientes frameworks de trabajo:
 
 ## Lenguajes de Programación
 
-Este proyecto utiliza los siguientes lenguajes de programación:
+Este proyecto utiliza los siguientes:
 
 - ```Python```
 - ```HTML```
