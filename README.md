@@ -1,16 +1,21 @@
+<div align="center">
+
+![wink](Imagenes/logo1.jpg)
+</div>
+
+
 # Presentación del Proyecto: Plataforma de Recomendación de Hoteles
 
-## Índice
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Tabla de Contenidos</summary>
   <ol>
-    <li><a href="#Descripcion General">Descripción General</a></li>
-    <li><a href="#Objetivo">Objetivo</a></li>
-    <li><a href="#Tecnologias Utilizadas">Tecnologias utilizadas</a></li>
-    <li><a href="#Ingenieria de Datos">Ingenieria de Datos</a></li>
-    <li><a href="#Analisis de Datos">Analisis de Datos</a></li>
-    <li><a href="#Sistema de Recomendacion">Sistema de Recomendacion</a></li>
+    <li><a href="#descripción-general">Descripción General</a></li>
+    <li><a href="#objetivo">Objetivo</a></li>
+    <li><a href="#tecnologías-utilizadas">Tecnologías utilizadas</a></li>
+    <li><a href="#ingeniería-de-datos">Ingeniería de Datos</a></li>
+    <li><a href="#análisis-de-datos">Análisis de Datos</a></li>
+    <li><a href="#sistema-de-recomendación">Sistema de Recomendación</a></li>
   </ol>
 </details>
 
@@ -23,7 +28,7 @@ Bienvenidos, inversionistas. Me complace presentarles nuestro proyecto de una pl
 La tecnologia avanza a pasos agigantados, y por ello el aprovechamiento de los datos en cuanto a lo que busca el cliente final termina siendo lo mas importante a la hora de poder conectar con el, debido a esto vimos una oportunidad de mejorar 
 
 
-## Tecnologias Utilizadas
+## Tecnologías Utilizadas
 
 ### 1. Google Cloud Platform (GCP) 
 [![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://console.cloud.google.com/welcome)
@@ -64,7 +69,7 @@ Para garantizar la integridad y calidad de los datos, seguimos un enfoque robust
    
    - Los datos limpios y procesados se almacenan eficientemente en Firestore para su posterior uso en la plataforma.
 
-## Analisis de Datos
+## Análisis de Datos
 
 Nuestro enfoque de análisis se centra en obtener información valiosa y proporcionar insights para la toma de decisiones:
 
@@ -80,7 +85,7 @@ Nuestro enfoque de análisis se centra en obtener información valiosa y proporc
    
    - Realizamos análisis avanzados en BigQuery para obtener información sobre tendencias de usuarios, demanda de hoteles y otros aspectos clave.
 
-## Sistema de Recomendacion
+## Sistema de Recomendación
 
 Nuestra plataforma implementa un sistema de recomendación basado en la similitud del coseno para proporcionar sugerencias personalizadas:
 
