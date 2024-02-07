@@ -2,7 +2,23 @@
     <img src="HotelWise/_src/HotelWiseLogo.Horizontal.png">
 </p>
 
-# Página web del Proyecto
+# Página web del Proyecto <!-- omit in toc --> 
+
+## Indice <!-- omit in toc --> 
+
+- [Descripción](#descripción)
+- [Flujo de Trabajo](#flujo-de-trabajo)
+- [Instalación](#instalación)
+  - [Procedimiento](#procedimiento)
+- [Uso](#uso)
+- [Frameworks de Trabajo](#frameworks-de-trabajo)
+- [Lenguajes de Programación](#lenguajes-de-programación)
+- [Ejemplos](#ejemplos)
+- [Contribución](#contribución)
+- [Créditos](#créditos)
+- [Licencia](#licencia)
+- [Contacto](#contacto)
+- [Enlaces adicionales](#enlaces-adicionales)
 
 ## Descripción
 
