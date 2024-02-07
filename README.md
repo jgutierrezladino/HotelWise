@@ -106,6 +106,8 @@ Respecto a nuestra competencia nos diferenciamos en el hecho de que no solo eval
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
 [![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)](https://www.notion.so/)
 [![Polars](https://img.shields.io/badge/polars-%23013243.svg?style=for-the-badge&logo=polars&logoColor=white)](https://pola.rs/)
+[![ClickUp](https://img.shields.io/badge/ClickUp-%237B68EE.svg?style=for-the-badge&logo=ClickUp&logoColor=white)](https://clickup.com/)
+
 
 ## Ingeniería de Datos
 
