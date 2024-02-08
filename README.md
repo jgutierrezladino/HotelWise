@@ -39,8 +39,12 @@ Diagrama de Gantt
 
 ## Stack Tecnológico
 
+Conjunto de tecnologías, herramientas, frameworks e infraestructura que se utilizan para desarrollar y ejecutar el proyecto.
+
 ### Google Cloud Platform (GCP)
 Utilizaremos Google Cloud Platform para acceder a los servicios de AutoML y alojar nuestro proyecto.
+- Google Cloud Storage será utilizado para almacenar los datos raw.
+- Cloud Firestore - Firebase será utlizado por el ML para trabajar con los datos procesados. 
 
 ### AutoML de Google
 Utilizaremos AutoML de Google para entrenar y desplegar nuestros modelos de aprendizaje automático.
