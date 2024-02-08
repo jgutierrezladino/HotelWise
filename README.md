@@ -8,10 +8,11 @@
 
 - [Descripción](#descripción)
 - [Flujo de Trabajo](#flujo-de-trabajo)
-- [Instalación](#instalación)
+- [Instalación y Despliegue](#instalación-y-despliegue)
   - [Procedimiento](#procedimiento)
 - [Uso](#uso)
 - [Frameworks de Trabajo](#frameworks-de-trabajo)
+- [Hosting](#hosting)
 - [Lenguajes de Programación](#lenguajes-de-programación)
 - [Ejemplos](#ejemplos)
 - [Contribución](#contribución)
@@ -32,13 +33,23 @@ Diagrama de Gantt
     <img src="HotelWise/screenshots/Gantt_Proyecto_Grupal_HenryDS.Web.png">
 </p>
 
-## Instalación
+## Instalación y Despliegue
+
 
 Asegúrate de tener Python instalado. Recomiendo usar un entorno virtual para instalar las dependencias del proyecto.
 
 1. Clona este repositorio en tu máquina local.
 2. Crea un entorno virtual para trabajar 
 3. Instala las dependencias necesarias utilizando el gestor de paquetes de tu elección (por ejemplo, npm o pip).
+4. Ejecuta el servidor Django.
+
+
+Para desplegar la aplicación en Firebase:
+
+1. Configura una cuenta de Firebase.
+2. Instala Firebase CLI.
+3. Inicializa tu proyecto Firebase.
+4. Despliega tu aplicación usando Firebase Hosting.
 
 ### Procedimiento
 
@@ -65,7 +76,11 @@ Herramientas y entornos que utiliza el proyecto:
 - ```Django```: Framework de desarrollo web de alto nivel en Python que fomenta el desarrollo rápido y limpio.
 - ```Bootstrap```: Framework que facilita la creación de interfaces de usuario responsivas y modernas para sitios y aplicaciones web.
 - ```Visual Studio Code```: Editor de código fuente desarrollado por Microsoft para Windows, Linux y macOS.
+- ```Firebase```: Hosting Web.
 
+## Hosting
+
+Firebase es una plataforma de desarrollo de aplicaciones móviles y web que ofrece una variedad de servicios, incluyendo hosting de aplicaciones web estáticas, y se la ha elegido para alojar el frontend de este proyecto debido a su facilidad de uso, escalabilidad y disponibilidad de características como alojamiento seguro, CDN global y despliegue rápido.
 ## Lenguajes de Programación
 
 Este proyecto utiliza los siguientes:
