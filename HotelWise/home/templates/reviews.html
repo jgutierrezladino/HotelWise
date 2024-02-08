@@ -7,6 +7,8 @@
 <link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.3/dist/jBox.all.min.css" rel="stylesheet"></link>
 <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 <script type="text/javascript" src="{% static '/js/script_bienvenida_head.js'%}"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 {%endblock%}
 
 {% block content %}
@@ -18,52 +20,79 @@
             <div class="row">
                 <div class="col-sm-12"">
                     <!-- Titulo recomendations -->
-                    <h6 class="centro">REVIEWS</h6>
+                    <h6 class="reviews-title">REVIEWS</h6>
+                </div>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                </div>
+                <div class="col-sm-8">
+                    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                        <h1>GoogleMaps</h1>
+                        <p>Elija su ubicacion:</p>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-5"">
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown button
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1">
-                          Default checkbox1
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1">
-                          Default checkbox2
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1">
-                          Default checkbox3
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1">
-                          Default checkbox4
-                        </label>
+                <div class="col-sm-4">
+                    <p class="centro3">Seleccione cantidad <i class="fas fa-star"></i>:</p>
+                    <div style="display: flex; flex-direction: column;  align-items: center;">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Estrellas
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <p class="centro3">Amenities</p>
+                        <div class="col-sm-4">
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Gimnasio
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                <label class="form-check-label" for="defaultCheck2">
+                                    Pileta
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                                <label class="form-check-label" for="defaultCheck3">
+                                    WiFi
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck4">
+                                <label class="form-check-label" for="defaultCheck4">
+                                    Restaurantes
+                                </label>
+                            </div>
+                        </div>
+                        <hr>
+                        <div id="miDiv">
+                            <label for="texto">Ingrese otro pedido:</label>
+                            <textarea id="texto" name="texto" rows="3"></textarea> 
+                        </div>
+                        <div class="col-sm-4">
+                        </div>
                     </div>
                 </div>
-            </div>   
-            <div class="row">
-                <div class="col-sm-7"">
-                    
-                </div>
-            </div> 
+                <div class="col-sm-8">
+                    <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 30px;">
+                        <img src="/static/imagenes/GoogleMaps.Map.png" alt="Descripción de la imagen" style="max-width: 80%;">
+                    </div>
+                </div> 
+            </div>
         </div>
         
         <!-- Contenedor Bajo -->

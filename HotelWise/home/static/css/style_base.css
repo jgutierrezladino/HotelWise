@@ -59,6 +59,15 @@ h6.centro {
     text-align: center;
 }
 
+h6.centro3 {
+    /* SubTitulo */
+    font-family: "Courier Prime", Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 5%;
+}
+
 h6.bajo1 {
     /* SubTitulo */
     font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
@@ -115,6 +124,13 @@ p.centro2 {
     font-family: "Courier Prime", monospace, Arial, Helvetica, sans-serif;
     font-size: 1.2vw;
     font-weight: normal;
+    text-align: center;
+}
+
+p.centro3 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
     text-align: center;
 }
 
@@ -205,4 +221,40 @@ div.incardpos {
     margin-top: 15%;
     margin-left: 5%;
     color: rgb(40, 40, 125);
+}
+
+.reviews-title {
+    font-family: 'Cocogoose Pro Letterpress Narrow';
+    font-size: 4.5vw;
+    font-weight: Bold;
+    text-align: center;
+    margin-top: 3%;
+    color: rgb(40, 40, 125);
+}
+
+#miDiv {
+    width: 300px;
+    /* Ancho del div */
+    border: 1px solid black;
+    /* Borde para visualizar el div */
+    padding: 10px;
+    /* Espacio interno del div */
+    background-color: #f2f2f2;
+    /* Fondo gris claro */
+    text-align: center;
+    /* Centrar el contenido del div horizontalmente */
+
+
+}
+
+#texto {
+    width: 100%;
+    /* calc(100% - 20px); Ancho del input con margen interior del div */
+    box-sizing: border-box;
+    /* Incluye el padding y border en el ancho */
+    height: 5em;
+    /* Altura del input para tres líneas */
+    resize: none;
+    /* Evita que el usuario pueda redimensionar el input */
+
 }
