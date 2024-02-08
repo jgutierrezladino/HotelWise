@@ -2,34 +2,31 @@
     <img src="HotelWiseML/_src/HotelWiseLogo.Horizontal.png">
 </p>
 
-# Indice <!-- omit in toc -->
+# Proyecto de Machine Learning <!-- omit in toc -->
 
-- [Proyecto de Machine Learning con AutoML de Google para recomendación de Hoteles](#proyecto-de-machine-learning-con-automl-de-google-para-recomendación-de-hoteles)
-  - [Descripción del Proyecto](#descripción-del-proyecto)
-  - [Flujo de Trabajo](#flujo-de-trabajo)
-  - [Stack Tecnológico](#stack-tecnológico)
-    - [Google Cloud Platform (GCP)](#google-cloud-platform-gcp)
-    - [AutoML de Google](#automl-de-google)
-      - [Bibliotecas y Funciones](#bibliotecas-y-funciones)
-      - [Modelos](#modelos)
-      - [Lenguajes](#lenguajes)
-  - [Requisitos de Instalación](#requisitos-de-instalación)
-  - [Instalación](#instalación)
-    - [Procedimiento](#procedimiento)
-  - [Resumen y Decisiones Finales](#resumen-y-decisiones-finales)
-  - [Contribución](#contribución)
-  - [Créditos](#créditos)
-  - [Licencia](#licencia)
-  - [Contacto](#contacto)
-  - [Enlaces adicionales](#enlaces-adicionales)
+## Indice <!-- omit in toc -->
 
-# Proyecto de Machine Learning con AutoML de Google para recomendación de Hoteles
-
-Este es un proyecto de Machine Learning que utiliza AutoML de Google para entrenar y desplegar modelos de aprendizaje automático.
+- [Descripción del Proyecto](#descripción-del-proyecto)
+- [Flujo de Trabajo](#flujo-de-trabajo)
+- [Stack Tecnológico](#stack-tecnológico)
+  - [Google Cloud Platform (GCP)](#google-cloud-platform-gcp)
+  - [AutoML de Google](#automl-de-google)
+    - [Bibliotecas y Funciones](#bibliotecas-y-funciones)
+    - [Modelos](#modelos)
+    - [Lenguajes](#lenguajes)
+- [Requisitos de Instalación](#requisitos-de-instalación)
+- [Instalación](#instalación)
+  - [Procedimiento](#procedimiento)
+- [Resumen y Decisiones Finales](#resumen-y-decisiones-finales)
+- [Contribución](#contribución)
+- [Créditos](#créditos)
+- [Licencia](#licencia)
+- [Contacto](#contacto)
+- [Enlaces adicionales](#enlaces-adicionales)
 
 ## Descripción del Proyecto
 
-El proyecto tiene como objetivo desarrollar modelos de aprendizaje automático utilizando AutoML de Google utilizando las bases de datos de Google y Yelp para hacer recomendaciones de hoteles.
+Este es un proyecto de Machine Learning que utiliza AutoML de Google para entrenar y desplegar modelos de aprendizaje automático y tiene como objetivo desplegarlos utilizando las bases de datos de Google y Yelp para hacer recomendaciones de hoteles.
 
 ## Flujo de Trabajo
 
