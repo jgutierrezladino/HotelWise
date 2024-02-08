@@ -48,7 +48,7 @@ h6.uno {
     font-weight: bold;
     text-align: center;
     margin-top: 10%;
-    margin-right: 13%;
+    margin-right: 13;
 }
 
 h6.centro {
@@ -110,7 +110,7 @@ p.dos {
     font-weight: normal;
     text-align: center;
     margin-top: 5%;
-    margin-right: 13%;
+    margin-right: 13;
 }
 
 p.centro1 {
@@ -257,4 +257,11 @@ div.incardpos {
     resize: none;
     /* Evita que el usuario pueda redimensionar el input */
 
+}
+
+.estrella-amarilla {
+    color: rgb(234, 255, 0);
+    /* Color amarillo */
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    /* Sombra */
 }
