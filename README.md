@@ -3,75 +3,190 @@
 ![wink](imagenes/HotelWiseLogo.png)
 </div>
 
-# Proyecto de Data Analytics: HotelWise
+
+# **Data Analytics: HotelWise**
 
 ---
+<details>
+<summary><strong>Índice</strong></summary>
+
+1. [Descripción del Producto](#descripcion-del-producto)
+2. [Flujo de trabajo](#flujo-de-trabajo)
+3. [Componentes Principales](#componentes-principales)
+4. [Objetivo SMART en el lapso de 2 semanas](#objetivo-smart-en-el-lapso-de-2-semanas)
+   - 4.1. [Acciones Asociadas](#acciones-asociadas-2-semanas)
+5. [Objetivo SMART en las siguientes 4 semanas](#objetivo-smart-en-las-siguientes-4-semanas)
+   - 5.1. [Acciones Asociadas](#acciones-asociadas-4-semanas)
+6. [KPIS](#kpis)
+   - 6.1. [Cantidad Promedio de amenidades por Usuario en verano (basado en comentarios positivos)](#1.kpi-amenidades-verano)
+      - 6.1.1. [Fórmula](#formula-amenidades-verano)
+      - 6.1.2. [Objetivo Específico](#objetivo-amenidades-verano)
+      - 6.1.3. [Medición](#medicion-amenidades-verano)
+      - 6.1.4. [Datos Necesarios](#datos-amenidades-verano)
+      - 6.1.5. [Resumen y Conclusiones](#resumen-amenidades-verano)
+   - 6.2. [Índice de Satisfacción del Usuario (CSAT)](#2.kpi-csat)
+      - 6.2.1. [Fórmula](#formula-csat)
+      - 6.2.2. [Objetivo Específico](#objetivo-csat)
+      - 6.2.3. [Medición](#medicion-csat)
+      - 6.2.4. [Datos Necesarios](#datos-csat)
+      - 6.2.5. [Resumen y Conclusiones](#resumen-csat)
+   - 6.3. [Tasa de Conversión de Reservas de acuerdo a las amenidades](#3.kpi-tasa-de-conversion)
+      - 6.3.1. [Fórmula](#formula-tasa-de-conversion)
+      - 6.3.2. [Objetivo Específico](#objetivo-tasa-de-conversion)
+      - 6.3.3. [Medición](#medicion-tasa-de-conversion)
+      - 6.3.4. [Datos Necesarios](#datos-tasa-de-conversion)
+      - 6.3.5. [Resumen y Conclusiones](#resumen-tasa-de-conversion)
+   - 6.4. [Índice de Retención de Usuarios (RIU)](#4.kpi-riu)
+      - 6.4.1. [Fórmula](#formula-riu)
+      - 6.4.2. [Objetivo Específico](#objetivo-riu)
+      - 6.4.3. [Medición](#medicion-riu)
+      - 6.4.4. [Datos Necesarios](#datos-riu)
+      - 6.4.5. [Resumen y Conclusiones](#resumen-riu)
+   - 6.5. [Índice de Delitos por Área (IDA)](#5.kpi-ida)
+      - 6.5.1. [Fórmula](#formula-ida)
+      - 6.5.2. [Objetivo Específico](#objetivo-ida)
+      - 6.5.3. [Medición](#medicion-ida)
+      - 6.5.4. [Datos Necesarios](#datos-ida)
+      - 6.5.5. [Resumen y Conclusiones](#resumen-ida)
+7. [Stack Tecnológico](#stack-tecnologico)
+   - 7.1. [BigQuery](#bigquery)
+   - 7.2. [Looker Studio](#looker-studio)
+   - 7.3. [ClickUp](#clickup)
+   - 7.4. [Integración de Tecnologías](#integracion-de-tecnologias)
+
+</details>
+
+## **Descripción del Producto**
+
 ---
-Informe: Plataforma HotelWise, Kpis, 
 
-# **Introducción**
-
----
-
-Nuestro servicio 'HotelWise' se destaca por brindar una experiencia de usuario excepcional y de primer nivel, superando la mera comparación de opciones de alojamiento. A diferencia de plataformas similares, nos especializamos en ofrecer una cuidadosa selección de hoteles de alta calidad, respaldados por reseñas auténticas y detalladas. Además, contamos con información confiable sobre zonas seguras para garantizar la tranquilidad de nuestros usuarios.
+Este proyecto presenta una plataforma de Data Analytics diseñada para HotelWise, centrada en proporcionar análisis detallados y visualizaciones interactivas basadas en datos clave para la toma de decisiones estratégicas y la mejora continua de la plataforma.
 
 
-# **Flujo de trabajo**
+## **Flujo de trabajo**
 
 ---
+
 <img src = 'imagenes/gantt.png' >
 
 
-# **Objetivo**
+## **Componentes Principales**
 
 ---
 
-Presentar un análisis y examinación de datos para identificar tendencias y patrones que revelen insights importantes y aumenten la eficiencia para respaldar la app creada.
+#### 1. Base de Datos en BigQuery
 
+Almacén de datos limpio y organizado que incluye información detallada sobre preferencias de usuarios, comentarios, amenidades de hoteles y más.
 
-# **Principales Características**
+#### 2. Dashboard Interactivo en Looker Studio
 
----
+Panel visual interactivo que ofrece métricas clave, tendencias y análisis detallados para evaluar la satisfacción del usuario, la tasa de conversión de reservas y otros KPIs específicos.
 
-### **Filtros Detallados y Personalizados**
+#### 3. Análisis Detallados
 
-Nuestra plataforma ofrece filtros detallados por servicios y ubicación, permitiendo a nuestros usuarios encontrar el alojamiento perfecto que se ajuste a sus necesidades y preferencias específicas.
+Información específica y detallada sobre la preferencia de amenidades durante la temporada de verano, el índice de satisfacción del usuario, la tasa de conversión de reservas y otros KPIs relevantes.
 
-### Análisis de Sentimiento
-
-Utilizamos análisis de sentimiento para resaltar las reseñas positivas, brindando a nuestros usuarios una visión clara de las experiencias satisfactorias de otros viajeros.
-
-### Información Completa y Precisa
-
-Proporcionamos información detallada sobre cada hotel, incluyendo servicios y amenidades disponibles, así como su ubicación precisa. Nuestra plataforma se nutre de fuentes confiables como Google y Yelp, garantizando datos precisos y actualizados para nuestros usuarios.
-
-
-# **¿Cómo Nos Distinguimos?**
+## **Objetivo SMART en el lapso de 2 semanas**
 
 ---
 
-### Enfoque en la Calidad
+### Objetivo
 
-Nos destacamos por ofrecer una selección cuidadosamente curada de hoteles de alta calidad, priorizando la satisfacción y comodidad del cliente en cada reserva.
+En las últimas dos semanas, se ha dedicado tiempo al desarrollo de KPIs con los datos necesarios, la organización efectiva de objetivos, la investigación de información de otras plataformas para destacarse y la creación del README del proyecto.
 
-### Experiencia del Usuario Mejorada
+### SMART
 
-Nuestra plataforma se centra en brindar una experiencia de usuario intuitiva y sin complicaciones, facilitando el proceso de búsqueda y reserva de alojamiento.
+- **Específico (Specific):**
 
-### Transparencia y Confianza
+Se ha trabajado en el desarrollo de KPIs, la organización de objetivos, la investigación de información de otras plataformas y la creación del README en las últimas dos semanas.
 
-Valoramos la transparencia y la confianza en cada interacción con nuestros usuarios. Todas nuestras reseñas y calificaciones provienen de fuentes auténticas y verificadas, asegurando la credibilidad y fiabilidad de la información proporcionada.
+- **Medible (Measurable):**
+
+El progreso se mide por la finalización y organización efectiva de los KPIs, objetivos y el contenido del README.
+
+- **Alcanzable (Achievable):**
+
+La dedicación de tiempo y recursos a estas áreas es alcanzable en un periodo de dos semanas.
+
+- **Relevante (Relevant):**
+
+El desarrollo de KPIs, la organización de objetivos y la investigación de otras plataformas son actividades relevantes para el éxito del proyecto.
+
+- **Temporal (Time-bound):**
+
+Estas actividades se han llevado a cabo en las últimas dos semanas, demostrando un progreso reciente y continuo.
+
+#### Acciones Asociadas
+
+1. Desarrollo de KPIs y Organización de Objetivos.
+   - Identificar y definir KPIs clave.
+   - Organizar objetivos específicos para la fase de preparación de datos y creación de dashboard.
+
+2. Investigación de Otras Plataformas.
+   - Analizar plataformas similares para obtener información relevante y diferenciarse.
+
+3. Creación del README.
+   - Desarrollar un README completo que destaque los aspectos clave del proyecto.
 
 
-# **KPIS**
+## **Objetivo SMART en las siguientes 4 semanas**
 
 ---
 
-## 1. **Cantidad Promedio de amenidades por Usuario en verano (basado en comentarios positivos)**
+### Objetivo
+
+En las próximas dos semanas, realizar la preparación y organización efectiva de la base de datos en BigQuery. Posteriormente, en las siguientes dos semanas, crear un dashboard interactivo en Looker Studio que incluya análisis detallados y visualizaciones relevantes para respaldar la presentación del proyecto en el plazo de cuatro semanas.
+
+### SMART
+
+- **Específico (Specific):**
+
+El objetivo se divide en dos fases claramente definidas: la preparación de datos en BigQuery en las primeras dos semanas y la creación de un dashboard interactivo en Looker Studio en las dos semanas siguientes.
+
+- **Medible (Measurable):**
+
+La calidad de la preparación de datos en BigQuery se medirá por la efectividad en la organización y limpieza de la base de datos. La creación del dashboard en Looker Studio se evaluará por la inclusión de análisis detallados y visualizaciones pertinentes.
+
+- **Alcanzable (Achievable):**
+
+La preparación de datos es alcanzable en dos semanas utilizando las funciones de limpieza y organización de BigQuery. La creación de un dashboard en Looker Studio en las siguientes dos semanas es factible con la herramienta de creación visual de informes y dashboards que ofrece la plataforma.
+
+- **Relevante (Relevant):**
+
+El objetivo es relevante para la presentación del proyecto, ya que la calidad de los datos y la presentación visual impactarán directamente en la percepción del comprador sobre la solidez y eficacia de la plataforma.
+
+- **Temporal (Time-bound):**
+
+Se establece un plazo de dos semanas para la preparación de datos en BigQuery y un plazo adicional de dos semanas para la creación del dashboard en Looker Studio, lo que da un total de cuatro semanas para la consecución del objetivo.
+
+#### Acciones Asociadas
+
+1 . Preparación de Datos en BigQuery (Próximas dos semanas):
+
+Identificar y corregir posibles problemas de calidad de datos.
+Organizar la información en tablas y relaciones lógicas.
+Realizar análisis exploratorio inicial para identificar patrones y tendencias.
+
+2 . Creación de Dashboard en Looker Studio (Siguientes dos semanas):
+
+Seleccionar las métricas clave a incluir en el dashboard.
+Diseñar visualizaciones efectivas y comprensibles.
+Integrar análisis detallados para respaldar puntos clave en la presentación del proyecto.
+
+3 . Presentación del Proyecto (En las próximas cuatro semanas):
+
+Explicar de manera efectiva los análisis realizados y los beneficios destacados por las visualizaciones.
+
+
+## **KPIS**
+
+---
+
+### 1. **Cantidad Promedio de amenidades por Usuario en verano (basado en comentarios positivos)**
 
 Proporcionará el promedio de la cantidad de amenidades preferidas por usuario durante la temporada de verano, lo que ayudará a comprender mejor las preferencias de los usuarios durante ese período específico.
 
-### Formula
+#### Formula
 
 Cantidad Promedio de Amenidades por Usuario en verano = (Total de amenidades preferidas durante el verano/ Total de usuarios que dejaron comentarios positivos sobre amenidades durante el verano)
 
@@ -79,15 +194,15 @@ Cantidad Promedio de Amenidades por Usuario en verano = (Total de amenidades pre
 
 - *Total de usuarios que dejaron comentarios positivos sobre amenidades durante el verano*: Es la cantidad de usuarios que expresaron comentarios positivos relacionados con amenidades durante la temporada de verano.
 
-### Objetivo Específico
+#### Objetivo Específico
 
 Evaluar las preferencias de los usuarios en cuanto a las amenidades durante la temporada de verano.
 
-### Medición
+#### Medición
 
 Recopilar comentarios de usuarios que mencionen amenidades durante la temporada de verano, calcular el promedio de amenidades preferidas por usuario y evaluar las preferencias generales.
 
-### Datos necesarios
+#### Datos necesarios
 
 - Comentarios de usuarios:
 Comentarios de usuarios que contengan información sobre las amenidades que prefieren durante la temporada de verano. Estos comentarios deben estar asociados con cada usuario para calcular el promedio por usuario.
@@ -107,16 +222,16 @@ Asociar cada comentario con el usuario correspondiente para calcular el promedio
 
 Proporciona información valiosa sobre las preferencias de los usuarios en cuanto a las amenidades durante la temporada de verano, lo que puede ser útil para tomar decisiones informadas sobre la oferta de servicios durante ese período.
 
-### Resumen y Conclusiones
+#### Resumen y Conclusiones
 
 El análisis de la cantidad promedio de amenidades por usuario en verano proporciona una visión detallada de las preferencias de los usuarios durante la temporada estival, permitiendo a la plataforma adaptar su oferta de servicios de manera más precisa.
 
 
-## 2. **Índice de Satisfacción del Usuario (CSAT)**
+### 2. **Índice de Satisfacción del Usuario (CSAT)**
 
 El Índice de Satisfacción del Usuario (CSAT) es una métrica que mide la satisfacción general de los usuarios con un producto o servicio. En el contexto de nuestra plataforma, podemos calcular el CSAT utilizando las reseñas y comentarios de los usuarios sobre su experiencia con los hoteles. Esta medida nos brinda información valiosa sobre la percepción general de los usuarios hacia los servicios ofrecidos. El CSAT nos ayuda a evaluar la calidad del servicio de manera integral, proporcionando una métrica cuantitativa de la satisfacción del usuario durante la temporada de verano. Esta evaluación continua nos permite identificar áreas de mejora y garantizar una mejora constante en la calidad del servicio ofrecido.
 
-### Fórmula
+#### Fórmula
 
 CSAT= (Total de comentarios positivos de satisfaccion/ Total de comentarios de usuarios evaluados) ×100
 
@@ -124,15 +239,15 @@ CSAT= (Total de comentarios positivos de satisfaccion/ Total de comentarios de u
 
 - *Total de comentarios de usuarios evaluados:* Es la cantidad total de comentarios de usuarios recopilados durante la temporada de verano.
 
-### Objetivo Específico
+#### Objetivo Específico
 
 Evaluar la satisfacción de los usuarios a través de comentarios de usuarios recopilando puntuaciones de satisfacción.
 
-### Medición
+#### Medición
 
 Recopilar puntuaciones de satisfacción a través de comentarios de los usuarios y calcular un índice de satisfacción del usuario (CSAT).
 
-### Datos Necesarios
+#### Datos Necesarios
 
 - Comentarios de Usuarios:
 Recopilar comentarios de usuarios que contengan información sobre su satisfacción con el servicio.
@@ -151,16 +266,16 @@ Una vez identificados los comentarios positivos relacionados con la satisfacció
 - Asociación con Usuarios:
 Es esencial asociar cada comentario con el usuario correspondiente para calcular el CSAT por usuario.
 
-### Resumen y Conclusiones 
+#### Resumen y Conclusiones
 
 El CSAT ofrece una medida clave de la satisfacción de los usuarios durante la temporada de verano, proporcionando información valiosa sobre la percepción general de los servicios ofrecidos y permitiendo mejoras continuas en la calidad del servicio.
 
 
-## 3. **Tasa de Conversión de Reservas de acuerdo a las amenidades**
+### 3. **Tasa de Conversión de Reservas de acuerdo a las amenidades**
 
 La Tasa de Conversión de Reservas de acuerdo a las amenidades representa el porcentaje de visitantes que dejaron un comentario positivo sobre un hotel junto con las amenidades que ofrece.
 
-### Fórmula
+#### Fórmula
 
 Tasa de Conversión de Reservas de acuerdo a las amenidades = (Total de usuarios con comentarios positivos y menciones de amenidades / Total de visitantes) ×100%
 
@@ -168,15 +283,15 @@ Tasa de Conversión de Reservas de acuerdo a las amenidades = (Total de usuarios
 
 - *Total de visitantes:* Es el total de visitantes que accedieron a la información del hotel durante la temporada de verano.
 
-### Objetivo Específico
+#### Objetivo Específico
 
 Evaluar la efectividad de las amenidades ofrecidas por los hoteles en la conversión de reservas.
 
-### Medición
+#### Medición
 
 Recopilar comentarios de usuarios que mencionen amenidades durante la temporada de verano, identificar los comentarios positivos y calcular la tasa de conversión de reservas basada en dichos comentarios.
 
-### Datos Necesarios
+#### Datos Necesarios
 
 - Comentarios de usuarios que mencionen amenidades durante la temporada de verano.
 Necesitamos recopilar comentarios de usuarios que contengan información sobre las amenidades preferidas durante la temporada de verano. Estos comentarios deben estar asociados con cada usuario para calcular el promedio por usuario.
@@ -193,16 +308,16 @@ Una vez identificados los comentarios positivos relacionados con las amenidades 
 - Asociación de cada comentario con el usuario correspondiente.
 Es importante asociar cada comentario con el usuario correspondiente para calcular el promedio por usuario.
 
-### Resumen y Conclusiones
+#### Resumen y Conclusiones
 
 La tasa de conversión de reservas según las amenidades proporciona información valiosa sobre cómo las características ofrecidas por los hoteles influyen en las decisiones de reserva de los usuarios, permitiendo ajustes estratégicos para maximizar la eficacia de las ofertas de servicios.
 
 
-## 4. **Índice de Retención de Usuarios (RIU)**
+### 4. **Índice de Retención de Usuarios (RIU)**
 
 El Índice de Retención de Usuarios (RIU) es una métrica crucial que evalúa la fidelidad y la satisfacción de los usuarios con la plataforma a lo largo del tiempo. Este indicador nos permite comprender cuántos usuarios regresan a utilizar la plataforma después de su primera experiencia y cuántos permanecen como usuarios activos durante un periodo determinado, como la temporada de verano.
 
-### Fórmula
+#### Fórmula
 
 RIU = ((Usuarios activos al final del periodo - Nuevos usuarios)\Usuarios activos al inicio del periodo) X 100
 
@@ -212,15 +327,15 @@ RIU = ((Usuarios activos al final del periodo - Nuevos usuarios)\Usuarios activo
 
 - *Usuarios activos al inicio del periodo:* Indica el número de usuarios que ya estaban utilizando la plataforma al comienzo del periodo de evaluación.
 
-### Objetivo Específico
+#### Objetivo Específico
 
 Medir la capacidad de retención de la plataforma y evaluar la satisfacción de los usuarios a lo largo del tiempo.
 
-### Medición
+#### Medición
 
 Calcular el Índice de Retención de Usuarios al final de la temporada de verano y compararlo con periodos anteriores para identificar tendencias y áreas de mejora.
 
-### Datos Necesarios
+#### Datos Necesarios
 
 - Registro de usuarios: Mantener un registro de los nuevos usuarios que se registran durante el periodo de evaluación.
 
@@ -228,16 +343,16 @@ Calcular el Índice de Retención de Usuarios al final de la temporada de verano
 
 - Análisis comparativo: Comparar el número de usuarios activos al final del periodo con el número de nuevos usuarios y usuarios activos al inicio del periodo para calcular el RIU.
 
-### Resumen y Conclusiones
+#### Resumen y Conclusiones
 
 El Índice de Retención de Usuarios proporcionará información valiosa sobre la lealtad y la satisfacción de los usuarios con la plataforma, permitiendo identificar áreas de mejora y estrategias para aumentar la retención de usuarios a largo plazo.
 
 
-## 5. **Índice de Delitos por Área (IDA)**
+### 5. **Índice de Delitos por Área (IDA)**
 
 El Índice de Delitos por Área (IDA) es una métrica que evalúa la incidencia de delitos en una zona geográfica específica, lo que proporciona una medida relativa de la seguridad en esa área. Este KPI es útil para que los usuarios puedan evaluar el nivel de seguridad de la zona donde se encuentra un hotel y tomar decisiones informadas al seleccionar su alojamiento.
 
-### Fórmula
+#### Fórmula
 
 IDA = (Total de delitos en la zona\Población total de la zona) x 1000
 
@@ -245,39 +360,41 @@ IDA = (Total de delitos en la zona\Población total de la zona) x 1000
 
 - *Población total de la zona:* Representa la población total que habita en la zona durante el mismo período.
 
-### Objetivo Específico
+#### Objetivo Específico
 
 Evaluar la incidencia de delitos en una zona geográfica específica para proporcionar información sobre la seguridad en esa área.
 
-### Medición
+#### Medición
 
 Calcular el Índice de Delitos por Área (IDA) mediante la fórmula proporcionada, que relaciona el total de delitos en la zona con la población total de la misma durante un período específico.
 
-### Datos Necesarios
+#### Datos Necesarios
 
 - Registros de delitos: Mantener un registro de todos los delitos reportados en la zona geográfica de interés durante el período de evaluación.
 
 - Datos demográficos: Obtener información precisa sobre la población total que habita en la zona durante el mismo período de tiempo.
 
-### Resumen y Conclusiones
+#### Resumen y Conclusiones
 
 El Índice de Delitos por Área (IDA) proporciona una medida relativa de la seguridad en una zona geográfica específica al evaluar la incidencia de delitos en relación con la población total de la zona. Esta métrica es valiosa para que los usuarios puedan tomar decisiones informadas al seleccionar su alojamiento, al proporcionar una perspectiva sobre la seguridad en diferentes áreas.
 
 
-# Stack Tecnológico
+## Stack Tecnológico
 
 ---
 
 En este proyecto, se emplearán las siguientes tecnologías para la gestión y análisis de datos:
 
-### **BigQuery**
+#### **BigQuery**
+
 [![BigQuery](https://img.shields.io/badge/BigQuery-007ACC?style=for-the-badge&logo=lock&logoColor=white)](https://cloud.google.com/bigquery?hl=es)
 
 - *Descripción:* BigQuery es un almacén de datos completamente administrado y altamente escalable que permite analizar grandes conjuntos de datos en tiempo real mediante SQL.
 
 - *Utilidad:* Utilizaremos BigQuery para almacenar y procesar grandes volúmenes de datos de manera eficiente, lo que nos permitirá realizar análisis de datos complejos y consultas en tiempo real.
 
-### **Looker Studio**
+#### **Looker Studio**
+
 [![Loocker](https://img.shields.io/badge/Loocker-333333?style=for-the-badge&logo=lock&logoColor=white)](https://cloud.google.com/looker?hl=es)
 
 - *Descripción:* Looker Studio es una plataforma de análisis de datos que proporciona herramientas poderosas para explorar y visualizar datos, crear paneles interactivos y compartir conocimientos.
@@ -285,12 +402,13 @@ En este proyecto, se emplearán las siguientes tecnologías para la gestión y a
 - *Utilidad:* Integraremos Looker Studio para crear visualizaciones dinámicas, paneles interactivos y reportes personalizados basados en los datos almacenados en BigQuery. Esto nos permitirá extraer insights valiosos y comunicar de manera efectiva los resultados del análisis a los stakeholders.
 
 ### ClickUp
+
 [![ClickUp](https://img.shields.io/badge/ClickUp-7B68E?style=for-the-badge&logo=lock&logoColor=white)](https://app.clickup.com/)
 
 - **Descripción:** ClickUp es una plataforma de gestión de proyectos y tareas que ofrece herramientas para la planificación, seguimiento y colaboración en equipos.
 - **Utilidad:** Integraremos ClickUp para organizar tareas, asignar responsabilidades y mantener un seguimiento del progreso del proyecto. Con sus características de colaboración y seguimiento de tiempo, ClickUp facilitará la gestión eficiente del proyecto y la coordinación del equipo.
 
-### *Integración de Tecnologías*
+#### *Integración de Tecnologías*
 
 - **Complementariedad:** La integración de BigQuery, Looker Studio y ClickUp ofrece una solución completa para el almacenamiento, procesamiento, análisis, visualización y gestión de proyectos de datos. Esta combinación nos proporciona las herramientas necesarias para obtener información significativa a partir de nuestros datos, tomar decisiones informadas y gestionar eficazmente el proyecto.
 
