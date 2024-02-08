@@ -13,46 +13,50 @@
 1. [Descripción del Producto](#descripcion-del-producto)
 2. [Flujo de trabajo](#flujo-de-trabajo)
 3. [Componentes Principales](#componentes-principales)
-4. [Objetivo SMART en el lapso de 2 semanas](#objetivo-smart-en-el-lapso-de-2-semanas)
-   - 4.1. [Acciones Asociadas](#acciones-asociadas-2-semanas)
-5. [Objetivo SMART en las siguientes 4 semanas](#objetivo-smart-en-las-siguientes-4-semanas)
-   - 5.1. [Acciones Asociadas](#acciones-asociadas-4-semanas)
+4. [Objetivo SMART Sprint 1](#objetivo-smart-sprint-1)
+   - [Objetivo](#objetivo-2-semanas)
+   - [SMART](#SMART-2-semanas)
+   - [Acciones Asociadas](#acciones-asociadas-2-semanas)
+5. [Objetivo SMART Sprint 2 y 3](#objetivo-smart-sprint-2-y-3)
+   - [Objetivo](#objetivo-4-semanas)
+   - [SMART](#SMART-4-semanas)
+   - [Acciones Asociadas](#acciones-asociadas-4-semanas)
 6. [KPIS](#kpis)
-   - 6.1. [Cantidad Promedio de amenidades por Usuario en verano (basado en comentarios positivos)](#1.kpi-amenidades-verano)
-      - 6.1.1. [Fórmula](#formula-amenidades-verano)
-      - 6.1.2. [Objetivo Específico](#objetivo-amenidades-verano)
-      - 6.1.3. [Medición](#medicion-amenidades-verano)
-      - 6.1.4. [Datos Necesarios](#datos-amenidades-verano)
-      - 6.1.5. [Resumen y Conclusiones](#resumen-amenidades-verano)
-   - 6.2. [Índice de Satisfacción del Usuario (CSAT)](#2.kpi-csat)
-      - 6.2.1. [Fórmula](#formula-csat)
-      - 6.2.2. [Objetivo Específico](#objetivo-csat)
-      - 6.2.3. [Medición](#medicion-csat)
-      - 6.2.4. [Datos Necesarios](#datos-csat)
-      - 6.2.5. [Resumen y Conclusiones](#resumen-csat)
-   - 6.3. [Tasa de Conversión de Reservas de acuerdo a las amenidades](#3.kpi-tasa-de-conversion)
-      - 6.3.1. [Fórmula](#formula-tasa-de-conversion)
-      - 6.3.2. [Objetivo Específico](#objetivo-tasa-de-conversion)
-      - 6.3.3. [Medición](#medicion-tasa-de-conversion)
-      - 6.3.4. [Datos Necesarios](#datos-tasa-de-conversion)
-      - 6.3.5. [Resumen y Conclusiones](#resumen-tasa-de-conversion)
-   - 6.4. [Índice de Retención de Usuarios (RIU)](#4.kpi-riu)
-      - 6.4.1. [Fórmula](#formula-riu)
-      - 6.4.2. [Objetivo Específico](#objetivo-riu)
-      - 6.4.3. [Medición](#medicion-riu)
-      - 6.4.4. [Datos Necesarios](#datos-riu)
-      - 6.4.5. [Resumen y Conclusiones](#resumen-riu)
-   - 6.5. [Índice de Delitos por Área (IDA)](#5.kpi-ida)
-      - 6.5.1. [Fórmula](#formula-ida)
-      - 6.5.2. [Objetivo Específico](#objetivo-ida)
-      - 6.5.3. [Medición](#medicion-ida)
-      - 6.5.4. [Datos Necesarios](#datos-ida)
-      - 6.5.5. [Resumen y Conclusiones](#resumen-ida)
+   1. [Cantidad Promedio de amenidades por Usuario en verano (basado en comentarios positivos)](#1.kpi-amenidades-verano)
+        - [Fórmula](#formula-amenidades-verano)
+        - [Objetivo Específico](#objetivo-amenidades-verano)
+        - [Medición](#medicion-amenidades-verano)
+        - [Datos Necesarios](#datos-amenidades-verano)
+        - [Resumen y Conclusiones](#resumen-amenidades-verano)
+   2. [Índice de Satisfacción del Usuario (CSAT)](#2.kpi-csat)
+        - [Fórmula](#formula-csat)
+        - [Objetivo Específico](#objetivo-csat)
+        - [Medición](#medicion-csat)
+        - [Datos Necesarios](#datos-csat)
+        - [Resumen y Conclusiones](#resumen-csat)
+   3. [Tasa de Conversión de Reservas de acuerdo a las amenidades](#3.kpi-tasa-de-conversion)
+        - [Fórmula](#formula-tasa-de-conversion)
+        - [Objetivo Específico](#objetivo-tasa-de-conversion)
+        - [Medición](#medicion-tasa-de-conversion)
+        - [Datos Necesarios](#datos-tasa-de-conversion)
+        - [Resumen y Conclusiones](#resumen-tasa-de-conversion)
+   4. [Índice de Retención de Usuarios (RIU)](#4.kpi-riu)
+        - [Fórmula](#formula-riu)
+        - [Objetivo Específico](#objetivo-riu)
+        - [Medición](#medicion-riu)
+        - [Datos Necesarios](#datos-riu)
+        - [Resumen y Conclusiones](#resumen-riu)
+   5. [Índice de Delitos por Área (IDA)](#5.kpi-ida)
+        - [Fórmula](#formula-ida)
+        - [Objetivo Específico](#objetivo-ida)
+        - [Medición](#medicion-ida)
+        - [Datos Necesarios](#datos-ida)
+        - [Resumen y Conclusiones](#resumen-ida)
 7. [Stack Tecnológico](#stack-tecnologico)
-   - 7.1. [BigQuery](#bigquery)
-   - 7.2. [Looker Studio](#looker-studio)
-   - 7.3. [ClickUp](#clickup)
-   - 7.4. [Integración de Tecnologías](#integracion-de-tecnologias)
+   - [BigQuery](#bigquery)
+   - [Looker Studio](#looker-studio)
+   - [ClickUp](#clickup)
+   - [Integración de Tecnologías](#integracion-de-tecnologias)
 
 </details>
 
@@ -86,7 +90,7 @@ Panel visual interactivo que ofrece métricas clave, tendencias y análisis deta
 
 Información específica y detallada sobre la preferencia de amenidades durante la temporada de verano, el índice de satisfacción del usuario, la tasa de conversión de reservas y otros KPIs relevantes.
 
-## **Objetivo SMART en el lapso de 2 semanas**
+## **Objetivo SMART Sprint 1**
 
 ---
 
@@ -129,7 +133,7 @@ Estas actividades se han llevado a cabo en las últimas dos semanas, demostrando
    - Desarrollar un README completo que destaque los aspectos clave del proyecto.
 
 
-## **Objetivo SMART en las siguientes 4 semanas**
+## **Objetivo SMART Sprint 2 y 3**
 
 ---
 
