@@ -16,6 +16,7 @@
   - [Requisitos de Instalación](#requisitos-de-instalación)
   - [Instalación](#instalación)
     - [Procedimiento](#procedimiento)
+  - [Resumen y Decisiones Finales](#resumen-y-decisiones-finales)
   - [Contribución](#contribución)
   - [Créditos](#créditos)
   - [Licencia](#licencia)
@@ -115,6 +116,12 @@ pip install -r requirements.txt
 ...
 
 ```
+
+## Resumen y Decisiones Finales
+
+Recapitulando lo visto anteriormente, para abordar el problema específico en nuestro proyecto de Machine Learning, se ha optado por utilizar TensorFlow Recommenders con AutoML. Este enfoque nos permite automatizar el proceso de construcción y entrenamiento de modelos, optimizando y ajustando automáticamente los modelos según los datos de entrada y los objetivos del proyecto.
+Además, se ha decidido implementar un modelo basado en similitud de coseno o el modelo de vecinos cercanos (near neighbors) y aquel que consuma menos recursos de CPU será el elegido. Este enfoque nos permite maximizar la eficiencia en entornos de costo elevado por uso de CPU, asegurando un rendimiento óptimo mientras gestionamos de manera efectiva los recursos disponibles.
+
 ## Contribución
 
 ¡Estamos abiertos a contribuciones! Si tienes ideas de mejora, problemas que reportar o características nuevas que te gustaría añadir, no dudes en abrir una solicitud de extracción o un problema en este repositorio.
