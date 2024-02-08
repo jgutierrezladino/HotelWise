@@ -88,19 +88,19 @@ Este proyecto utiliza los siguientes:
     <img src="HotelWise/screenshots/Web_HotReviews_02_MAPS_drawio.png"  height=400>
 </p>
 
-- Primer print de pantalla de la página HOME:
+- Primer print de pantalla de la página ```HOME```:
 
 <p align="center">
     <img src="HotelWise/screenshots/Web_HotReviews_01_HOME.png"  height=400>
 </p>
 
-- Print de pantalla de la página HOME renombrado y con logo:
+- Print de pantalla de la página ```HOME``` renombrado y con logo:
 
 <p align="center">
     <img src="HotelWise/screenshots/Web_HotelWise_01_HOME.png"  height=400>
 </p>
 
-- Print de pantalla de la página REVIEWS:
+- Print de pantalla de la página ```REVIEWS```:
 
 <p align="center">
     <img src="HotelWise/screenshots/Web_HotelWise_01_REVIEWS.png"  height=400>
