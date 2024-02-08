@@ -1,5 +1,5 @@
 <div align="center">
-![wink](src/logo/HotelWiseLogo.png)
+    <img src="src/logo/HotelWiseLogo.png" alt="wink">
 </div>
 
 # Proyecto de Data Analytics: HotelWise
