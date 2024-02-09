@@ -1,6 +1,6 @@
 ![wink](./src/logo/Hotelwise.PNG)
 
-# Proyecto de Data Analytics: HotelWise
+# Proyecto de Data scientists: HotelWise
 
 ---
 
