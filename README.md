@@ -1,4 +1,4 @@
-![wink](./src/logo/Hotelwise.PNG)
+![wink](./src/logo/HotelWiseLogo.png)
 
 # Proyecto de Data scientists: HotelWise
 
