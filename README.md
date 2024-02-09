@@ -136,7 +136,7 @@ Las responsabilidades incluyen la creación y gestión de entornos en Google Clo
 
 #### Data Analist
 
-[Delfina Longo](https://www.linkedin.com/in/delfina-longo-pe%C3%B1a-44b4b623b/) | [Carlos Hidalgo](https://www.linkedin.com/in/carlos-hidalgo84/)
+[Delfina Longo](https://www.linkedin.com/in/delfina-longo-pe%C3%B1a-44b4b623b) | [Carlos Hidalgo](https://www.linkedin.com/in/carlos-hidalgo84/)
 
 Las responsabilidades abarcan la implementación y administración de bases de datos en BigQuery, el desarrollo de paneles interactivos en Looker Studio para análisis de datos, y la organización de tareas y seguimiento del progreso mediante la plataforma ClickUp. Además, se incluye la creación y mantenimiento de KPIs específicos.
 
