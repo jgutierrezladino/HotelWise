@@ -1,3 +1,5 @@
+![wink](imagenes/HotelWiseLogo.png)
+
 # Análisis Exploratorio de Datos (EDA)
 
 En este proyecto de análisis exploratorio de datos, exploramos un conjunto de datos para comprender su estructura, características y patrones.
@@ -16,9 +18,6 @@ El conjunto de datos utilizado en este análisis contiene información sobre com
 - [![NLTK](https://img.shields.io/badge/NLTK-333?style=for-the-badge&logo=nltk&logoColor=white)](https://www.nltk.org/)
 
 
-
-
-
 ## Proceso de Análisis
 
 El proceso de análisis se realizó en varios pasos:
@@ -32,8 +31,14 @@ El proceso de análisis se realizó en varios pasos:
 
 ## Archivos
 
-- `EDA preliminar reviws.ipynb`: Jupyter Notebook que contiene el código y la narrativa del análisis exploratorio de datos para los comentarios de los estados.
-- `EDA preliminar metadata.ipynb`: Jupyter Notebook que contiene el código y la narrativa del análisis exploratorio de datos para los datos de los hotles.
-- `id_hoteles.csv`: Archivo CSV que contiene informacion sobre los id de los hoteles para poder hacer un filtro en las reviws y asi obtener unicamente los comentarios que necesito para el proyecto.
-
+- [`EDA_preliminar_reviws.ipynb`](EDA_preliminar/EDA_preliminar_reviws.ipynb)
+: Jupyter Notebook que contiene el código y la narrativa del análisis exploratorio de datos para los comentarios de los estados.
+- [`EDA_preliminar_metadata.ipynb`](EDA_preliminar/EDA_preliminar_metadata.ipynb)
+: Jupyter Notebook que contiene el código y la narrativa del análisis exploratorio de datos para los datos de los hotles.
+- [`id_hoteles.csv`](CSV/id_hoteles.csv)
+: Archivo CSV que contiene informacion sobre los id de los hoteles para poder hacer un filtro en las reviws y asi obtener unicamente los comentarios que necesito para el proyecto.
+- [`hoteles.csv`](CSV/hoteles.csv)
+: Archivo CSV que contiene informacion recolectada de la metadata filtrando por hoteles.
+- [`hoteles_Alabama1.csv`](CSV/hoteles_Alabama1.csv)
+: Archivo CSV que contiene informacion recolectada de los reviw de Alabama para un primer avistamiento de los datos.
 
