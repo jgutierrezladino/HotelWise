@@ -96,7 +96,7 @@ Información específica y detallada sobre la preferencia de amenidades durante 
 
 ### Objetivo
 
-En las últimas dos semanas, se ha dedicado tiempo al desarrollo de KPIs con los datos necesarios, la organización efectiva de objetivos, la investigación de información de otras plataformas para destacarse y la creación del README del proyecto.
+En dos semanas, se ha dedicado tiempo al desarrollo de KPIs con los datos necesarios, la organización efectiva de objetivos, la investigación de información de otras plataformas para destacarse y la creación del README del proyecto.
 
 ### SMART
 
