@@ -1,4 +1,4 @@
-![wink](imagenes/HotelWiseLogo.png)
+![wink](Imagenes/HotelWiseLogo.png)
 
 # Análisis Exploratorio de Datos (EDA)
 
