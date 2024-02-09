@@ -134,7 +134,7 @@ Las responsabilidades incluyen la creación y gestión de entornos en Google Clo
 
 ---
 
-#### Data Analist
+### Data Analist
 
 [Delfina Longo](https://www.linkedin.com/in/delfina-longo-pe%C3%B1a-44b4b623b) | [Carlos Hidalgo](https://www.linkedin.com/in/carlos-hidalgo84/)
 
@@ -142,7 +142,7 @@ Las responsabilidades abarcan la implementación y administración de bases de d
 
 ---
 
-#### Data Cientist & Web Master
+### Data Cientist & Web Master
 
 [Migel Dallanegra](https://www.linkedin.com/in/miguel-angel-dallanegra-vilches-b419b19b/)
 
