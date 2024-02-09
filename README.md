@@ -417,3 +417,11 @@ En este proyecto, se emplearán las siguientes tecnologías para la gestión y a
 - **Complementariedad:** La integración de BigQuery, Looker Studio y ClickUp ofrece una solución completa para el almacenamiento, procesamiento, análisis, visualización y gestión de proyectos de datos. Esta combinación nos proporciona las herramientas necesarias para obtener información significativa a partir de nuestros datos, tomar decisiones informadas y gestionar eficazmente el proyecto.
 
 - **Escalabilidad:** Todas las tecnologías seleccionadas son altamente escalables y pueden adaptarse a las necesidades cambiantes del proyecto a medida que crece y se desarrolla.
+
+
+## Contacto
+
+---
+Gmail: delfinapena55@gmail.com
+Linkedin: www.linkedin.com/in/delfina-longo-peña-44b4b623b
+Github:[https://github.com/delfinap5](perfil)
