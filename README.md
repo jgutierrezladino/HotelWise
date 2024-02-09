@@ -118,7 +118,7 @@ El desarrollo de KPIs, la organización de objetivos y la investigación de otra
 
 - **Temporal (Time-bound):**
 
-Estas actividades se han llevado a cabo en las últimas dos semanas, demostrando un progreso reciente y continuo.
+Estas actividades se han llevado a cabo en dos semanas, demostrando un progreso reciente y continuo.
 
 #### Acciones Asociadas
 
@@ -161,7 +161,7 @@ El objetivo es relevante para la presentación del proyecto, ya que la calidad d
 
 - **Temporal (Time-bound):**
 
-Se establece un plazo de dos semanas para la preparación de datos en BigQuery y un plazo adicional de dos semanas para la creación del dashboard en Looker Studio, lo que da un total de cuatro semanas para la consecución del objetivo.
+Se establece un plazo de dos semanas para la preparación del Data Warehouse en BigQuery. Posteriormente, se destinarán dos semanas para la creación del dashboard en Looker Studio, lo que da un total de cuatro semanas para la consecución del objetivo.
 
 #### Acciones Asociadas
 
