@@ -405,7 +405,7 @@ En este proyecto, se emplearán las siguientes tecnologías para la gestión y a
 
 - *Utilidad:* Integraremos Looker Studio para crear visualizaciones dinámicas, paneles interactivos y reportes personalizados basados en los datos almacenados en BigQuery. Esto nos permitirá extraer insights valiosos y comunicar de manera efectiva los resultados del análisis a los stakeholders.
 
-### ClickUp
+#### **ClickUp**
 
 [![ClickUp](https://img.shields.io/badge/ClickUp-7B68E?style=for-the-badge&logo=lock&logoColor=white)](https://app.clickup.com/)
 
