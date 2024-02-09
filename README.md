@@ -8,6 +8,7 @@
 
 - [Descripción del Proyecto](#descripción-del-proyecto)
 - [Flujo de Trabajo](#flujo-de-trabajo)
+- [Objetivos Particulares](#objetivos-particulares)
 - [Stack Tecnológico](#stack-tecnológico)
   - [Google Cloud Platform (GCP)](#google-cloud-platform-gcp)
   - [AutoML de Google](#automl-de-google)
@@ -34,6 +35,10 @@ Diagrama de Gantt
 <p align="center">
     <img src="HotelWiseML/screenshots/Gantt_Proyecto_Grupal_HenryDS.ML.png">
 </p>
+
+## Objetivos Particulares
+
+Seleccion del entorno de trabajo, biblioteca y modelo de machine learning, para luego implementarlo, entrenarlo, evaluarlo y validarlo, de manera que finalmente pueda ser desplegado y puesto en produccion, devolviendo recomendaciones de hoteles. 
 
 ## Stack Tecnológico
 
