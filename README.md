@@ -422,6 +422,12 @@ En este proyecto, se emplearán las siguientes tecnologías para la gestión y a
 ## Contacto
 
 ---
-Gmail: delfinapena55@gmail.com
-LinkedIn: [Delfina Longo Peña](www.linkedin.com/in/delfina-longo-peña-44b4b623b)
-Github: [delfinap5](https://github.com/delfinap5)
+**Delfina Peña**
+- Gmail: delfinapena55@gmail.com
+- LinkedIn: [Delfina Longo Peña](www.linkedin.com/in/delfina-longo-peña-44b4b623b)
+- Github: [delfinap5](https://github.com/delfinap5)
+
+**Carlos Hidalgo**
+- Gmail: hidalgo.carlos1984@gmail.com
+- LinkedIn: [Carlos Hidalgo](https://www.linkedin.com/in/carlos-hidalgo84)
+- Github: [C-Hidalgo](https://github.com/C-Hidalgo)
