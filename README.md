@@ -8,6 +8,7 @@
 
 - [Descripción](#descripción)
 - [Flujo de Trabajo](#flujo-de-trabajo)
+- [Objetivos Particulares](#objetivos-particulares)
 - [Instalación y Despliegue](#instalación-y-despliegue)
   - [Procedimiento](#procedimiento)
 - [Uso](#uso)
@@ -32,6 +33,10 @@ Diagrama de Gantt
 <p align="center">
     <img src="HotelWise/screenshots/Gantt_Proyecto_Grupal_HenryDS.Web.png">
 </p>
+
+## Objetivos Particulares
+
+Diseño y desarrollo del sitio web del proyecto,  implementando las características y funcionalidades necesarias para poder hacer las mejores recomendaciones de hoteles. Dando a los clientes una experiencia superadora y otorgando información clara sobre sus consultas, haciendo hincapié en la facilidad para navegar el sitio.
 
 ## Instalación y Despliegue
 
