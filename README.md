@@ -423,5 +423,5 @@ En este proyecto, se emplearán las siguientes tecnologías para la gestión y a
 
 ---
 Gmail: delfinapena55@gmail.com
-Linkedin: www.linkedin.com/in/delfina-longo-peña-44b4b623b
-Github:[https://github.com/delfinap5](perfil)
+Linkedin: [Delfina Longo Peña](www.linkedin.com/in/delfina-longo-peña-44b4b623b)
+Github: [delfinap5](https://github.com/delfinap5)
