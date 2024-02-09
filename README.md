@@ -64,7 +64,7 @@
 
 ---
 
-En nuestro ámbito de Data Analytics, presentamos productos enfocados en ofrecer análisis detallados y visualizaciones interactivas basadas en datos clave. Esto se logra a través de una sólida Base de Datos en BigQuery, un Dashboard Interactivo en Looker Studio y análisis detallados que proporcionan una comprensión profunda de la información relevante. Estas herramientas permiten tomar decisiones estratégicas y fomentan la mejora continua en base a insights precisos.
+En nuestro ámbito de Data Analytics, presentamremos productos enfocados en ofrecer análisis detallados y visualizaciones interactivas basadas en datos clave. Esto se logrará a través de un Data Warehouse en BigQuery, un Dashboard Interactivo en Looker Studio y análisis detallados que proporcionan una comprensión profunda de la información relevante. Estas herramientas permiten tomar decisiones estratégicas y fomentan la mejora continua en base a insights precisos.
 
 
 ## **Flujo de trabajo**
