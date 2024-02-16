@@ -6,6 +6,14 @@ from airflow.providers.google.transfers.local_to_gcs import LocalFilesystemToGCS
 import polars as pl
 from ptransform import eliminar_columnas, explode_columna, eliminar_duplicados, filtrar_por_categoria
 import json
+from airflow.models import Variable
+
+# Obtener el valor de la variable 'project_id'
+gcp_project_id = Variable.get('project_id')
+
+# Obtener el valor de la variable 'bucket'
+gcp_bucket = Variable.get('bucket')
+
 
 # Configuración del DAG
 default_args = {
@@ -41,10 +49,8 @@ def descargar_y_cargar_df(**kwargs):
         data = json.load(file)
     df = pl.DataFrame(data)
 
-    # Almacenar el DataFrame resultante en el contexto de XCom para visualización
-    kwargs['ti'].xcom_push(key='df_resultante_tarea1', value=df)
+    return df
 
-# Utilizamos PythonOperator para la tarea 1, ya que esta no necesita retornar nada
 descargar_y_cargar_df_task = PythonOperator(
     task_id='descargar_y_cargar_df',
     python_callable=descargar_y_cargar_df,
@@ -52,100 +58,64 @@ descargar_y_cargar_df_task = PythonOperator(
     dag=dag,
 )
 
-# Tarea 2: Realizar Transformacion 1 - Eliminar columnas
-def realizar_transformacion_1(**kwargs):
-    ti = kwargs['ti']
-    # Obtener el DataFrame del contexto de XCom
-    df = ti.xcom_pull(task_ids='descargar_y_cargar_df', key='df_resultante_tarea1')
-    df_resultante = eliminar_columnas(df)
+# Tarea 2: Realizar Transformaciones
+def realizar_transformaciones(df: pl.DataFrame) -> pl.DataFrame:
+    df_paso1 = eliminar_columnas(df)
+    df_paso2 = explode_columna(df_paso1, 'category')
+    df_paso3 = eliminar_duplicados(df_paso2, 'name')
+    df_resultante = filtrar_por_categoria(df_paso3, 'category', 'hotel')
 
-    # Almacenar el DataFrame resultante en el contexto de XCom para visualización
-    ti.xcom_push(key='df_resultante_tarea2', value=df_resultante)
+    return df_resultante
 
-# Utilizamos PythonOperator para la tarea 2, ya que esta no necesita retornar nada
-realizar_transformacion_1_task = PythonOperator(
-    task_id='realizar_transformacion_1',
-    python_callable=realizar_transformacion_1,
+realizar_transformaciones_task = PythonOperator(
+    task_id='realizar_transformaciones',
+    python_callable=realizar_transformaciones,
     provide_context=True,
     dag=dag,
 )
 
-# Tarea 3: Realizar Transformacion 2 - Explode columna 'category'
-def realizar_transformacion_2(**kwargs):
-    ti = kwargs['ti']
-    # Obtener el DataFrame del contexto de XCom
-    df = ti.xcom_pull(task_ids='realizar_transformacion_1', key='df_resultante_tarea2')
-    df_resultante = explode_columna(df, 'category')
+# Tarea 3: Subir archivo Parquet a GCS
+def subir_df_a_gcs(df: pl.DataFrame, **kwargs):
+    output_file_path = '/tmp/output_file.parquet'
 
-    # Almacenar el DataFrame resultante en el contexto de XCom para visualización
-    ti.xcom_push(key='df_resultante_tarea3', value=df_resultante)
+    # Guardar el DataFrame resultante como archivo Parquet
+    df.write_parquet(output_file_path)
 
-# Utilizamos PythonOperator para la tarea 3, ya que esta no necesita retornar nada
-realizar_transformacion_2_task = PythonOperator(
-    task_id='realizar_transformacion_2',
-    python_callable=realizar_transformacion_2,
-    provide_context=True,
-    dag=dag,
-)
-
-# Tarea 4: Realizar Transformacion 3 - Eliminar duplicados
-def realizar_transformacion_3(**kwargs):
-    ti = kwargs['ti']
-    # Obtener el DataFrame del contexto de XCom
-    df = ti.xcom_pull(task_ids='realizar_transformacion_2', key='df_resultante_tarea3')
-    df_resultante = eliminar_duplicados(df, 'name')
-
-    # Almacenar el DataFrame resultante en el contexto de XCom para visualización
-    ti.xcom_push(key='df_resultante_tarea4', value=df_resultante)
-
-# Utilizamos PythonOperator para la tarea 4, ya que esta no necesita retornar nada
-realizar_transformacion_3_task = PythonOperator(
-    task_id='realizar_transformacion_3',
-    python_callable=realizar_transformacion_3,
-    provide_context=True,
-    dag=dag,
-)
-
-# Tarea 5: Realizar Transformacion 4 - Filtrar por 'hotel' en la columna 'category'
-def realizar_transformacion_4(**kwargs):
-    ti = kwargs['ti']
-    # Obtener el DataFrame del contexto de XCom
-    df = ti.xcom_pull(task_ids='realizar_transformacion_3', key='df_resultante_tarea4')
-    df_resultante = filtrar_por_categoria(df, 'category', 'hotel')
-
-    # Almacenar el DataFrame resultante en el contexto de XCom para visualización
-    ti.xcom_push(key='df_resultante_tarea5', value=df_resultante)
-
-# Utilizamos PythonOperator para la tarea 5, ya que esta no necesita retornar nada
-realizar_transformacion_4_task = PythonOperator(
-    task_id='realizar_transformacion_4',
-    python_callable=realizar_transformacion_4,
-    provide_context=True,
-    dag=dag,
-)
-
-# Tarea 6: Escribir resultado de Transformacion 4 en Parquet a GCS
-def escribir_parquet_a_gcs(**kwargs):
-    ti = kwargs['ti']
-    # Obtener el DataFrame del contexto de XCom
-    df = ti.xcom_pull(task_ids='realizar_transformacion_4', key='df_resultante_tarea5')
-
-    # Escribir DataFrame en formato Parquet a GCS
-    df.write_parquet('/tmp/output_parquet.parquet')
+    # Subir archivo Parquet a GCS
     upload_gcs_task = LocalFilesystemToGCSOperator(
-        task_id='upload_parquet_to_gcs',
-        src='/tmp/output_parquet.parquet',
-        dst='your_gcs_bucket/output_parquet.parquet',
+        task_id='upload_gcs_file',
+        src=output_file_path,
+        dst='your_gcs_bucket/your_output_parquet_file.parquet',
+        bucket_name='your_gcs_bucket',
     )
     upload_gcs_task.execute(context=kwargs)
 
-# Utilizamos PythonOperator para la tarea 6, ya que esta no necesita retornar nada
-escribir_parquet_a_gcs_task = PythonOperator(
-    task_id='escribir_parquet_a_gcs',
-    python_callable=escribir_parquet_a_gcs,
+subir_df_a_gcs_task = PythonOperator(
+    task_id='subir_df_a_gcs',
+    python_callable=subir_df_a_gcs,
     provide_context=True,
     dag=dag,
 )
 
+def insert_into_cloud_sql(**kwargs):
+    # Recuperar el DataFrame de XCom
+    df = kwargs['ti'].xcom_pull(key='my_dataframe')
+
+    # Conectar a la base de datos de Cloud SQL
+    db_user = 'YOUR_DB_USER'
+    db_password = 'YOUR_DB_PASSWORD'
+    db_name = 'YOUR_DB_NAME'
+    db_socket_dir = '/cloudsql'
+    cloud_sql_connection_name = 'YOUR_PROJECT_ID:YOUR_REGION:YOUR_INSTANCE_NAME'
+    connection_string = f"mysql+mysqldb://{db_user}:{db_password}@/{db_name}?unix_socket={db_socket_dir}/{cloud_sql_connection_name}"
+
+    # Crear una conexión a la base de datos
+    engine = create_engine(connection_string)
+
+    # Insertar el DataFrame en la tabla de la base de datos
+    table_name = 'YOUR_TABLE_NAME'
+    df.to_sql(table_name, con=engine, if_exists='append', index=False)
+
+
 # Configuración de dependencias entre tareas
-descargar_y_cargar_df_task >> realizar_transformacion_1_task >> realizar_transformacion_2_task >> realizar_transformacion_3_task >> realizar_transformacion_4_task >> escribir_parquet_a_gcs_task
+descargar_y_cargar_df_task >> realizar_transformaciones_task >> subir_df_a_gcs_task
