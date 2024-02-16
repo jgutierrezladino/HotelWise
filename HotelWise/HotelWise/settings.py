@@ -12,8 +12,6 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 import os
-import firebase_admin
-from firebase_admin import credentials
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -85,20 +83,6 @@ DATABASES = {
         "NAME": BASE_DIR / "db.sqlite3",
     }
 }
-
-# Firebase Configuration
-FIREBASE_CONFIG_FILE = 'hotelwise-a2fc8-firebase-adminsdk-oyn97-080c47d8f3.json'
-cred = credentials.Certificate(FIREBASE_CONFIG_FILE)
-firebase_admin.initialize_app(cred)
-
-# Django Database Configuration
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django_firebase_app.firebase',
-#         'CREDENTIALS': cred,
-#         'NAME': 'default',
-#     }
-# }
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
