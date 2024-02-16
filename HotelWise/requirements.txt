@@ -30,4 +30,3 @@ stack-data
 tornado
 traitlets
 wcwidth
-firebase-admin
