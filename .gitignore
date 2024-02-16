@@ -1,6 +1,9 @@
 # Unused Project Folders
 HotelWise/home/templates/pruebas/
 
+# Private Keys
+hotelwise-a2fc8-firebase-adminsdk-oyn97-080c47d8f3.json
+
 # Editors
 .vscode/
 .idea/
