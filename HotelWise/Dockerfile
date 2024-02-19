@@ -2,8 +2,8 @@ FROM python:3.9-alpine
 LABEL maintainer="mdallanegra@icloud.com"
 
 COPY ./requirements.txt /requirements.txt
-COPY ./app /app
-WORKDIR /app
+COPY ./HotelWiseWeb /HotelWiseWeb
+WORKDIR /HotelWiseWeb
 
 RUN python -m venv /py && \
     /py/bin/pip install --upgrade pip && \
