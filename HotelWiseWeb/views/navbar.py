@@ -34,6 +34,7 @@ def page_navbar():
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
+                <img src="https://github.com/jgutierrezladino/HotelWise/blob/HotelWiseWeb/HotelWiseWeb/static/imagenes/HotelWiseLogo.Horizontal.png" ,width="20%">
                 <li class="nav-item active">
                 <a class="nav-link" href="home" target = "_self">Acerca De <span class="sr-only">(current)</span></a>
                 </li>
