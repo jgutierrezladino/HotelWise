@@ -1,8 +1,10 @@
 import streamlit as st
 import pandas as pd
 
+logo = "_src/HotelWiseLogo.Horizontal.png"
+
 st.set_page_config(
-    layout="wide", initial_sidebar_state="collapsed", page_title='Prueba NavBAR')
+    layout="wide", initial_sidebar_state="collapsed", page_title='HOME')
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 hide_streamlit_style = """
@@ -13,6 +15,29 @@ hide_streamlit_style = """
 
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
+left_co, cent_co, last_co = st.columns(3)
+with cent_co:
+    st.image(logo, use_column_width=True)
+
+st.image("_src/HotelWiseLogo.Horizontal.png")
+background = Image.open("_src/HotelWiseLogo.Horizontal.png")
+col1, col2, col3 = st.columns([0.2, 5, 0.2])
+col2.image(background, use_column_width=True)
+st.markdown(
+    """
+    <style>
+        button[title^=Exit]+div [data-testid=stImage]{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+    </style>
+    """, unsafe_allow_html=True
+)
+st.image("_src/HotelWiseLogo.Horizontal.png")
+
 
 page_bg_img = f"""
     <style>
