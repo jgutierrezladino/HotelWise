@@ -31,7 +31,7 @@ Permitiendo a los usuarios encontrar la mejor opcion según sus criterios de bus
 
 Diagrama de Gantt
 <p align="center">
-    <img src="HotelwiseWeb/HotelWise/screenshots/Gantt_Proyecto_Grupal_HenryDS.Web.png">
+    <img src="HotelWiseWeb/screenshots/Gantt_Proyecto_Grupal_HenryDS.Web.png">
 </p>
 
 ## Objetivos Particulares
@@ -100,30 +100,30 @@ Este proyecto utiliza los siguientes:
 - Mockup de pantalla de la página de inicio:
 
 <p align="center">
-    <img src="HotelwiseWeb/HotelWise/screenshots/Web_HotReviews_01_HOME_drawio.png"  height=400>
+    <img src="HotelwiseWeb/screenshots/Web_HotReviews_01_HOME_drawio.png"  height=400>
 </p>
 
 - Mockup de pantalla de la búsqueda de reseñas:
 <p align="center">
-    <img src="HotelwiseWeb/HotelWise/screenshots/Web_HotReviews_02_MAPS_drawio.png"  height=400>
+    <img src="HotelwiseWeb/screenshots/Web_HotReviews_02_MAPS_drawio.png"  height=400>
 </p>
 
 - Primer print de pantalla de la página ```HOME```:
 
 <p align="center">
-    <img src="HotelwiseWeb/HotelWise/screenshots/Web_HotReviews_01_HOME.png"  height=400>
+    <img src="HotelwiseWeb/screenshots/Web_HotReviews_01_HOME.png"  height=400>
 </p>
 
 - Print de pantalla de la página ```HOME``` renombrado y con logo:
 
 <p align="center">
-    <img src="HotelwiseWeb/HotelWise/screenshots/Web_HotelWise_01_HOME.png"  height=400>
+    <img src="HotelwiseWeb/screenshots/Web_HotelWise_01_HOME.png"  height=400>
 </p>
 
 - Print de pantalla de la página ```REVIEWS```:
 
 <p align="center">
-    <img src="HotelwiseWeb/HotelWise/screenshots/Web_HotelWise_01_REVIEWS.png"  height=400>
+    <img src="HotelwiseWeb/screenshots/Web_HotelWise_01_REVIEWS.png"  height=400>
 </p>
 
 ## Contribución
