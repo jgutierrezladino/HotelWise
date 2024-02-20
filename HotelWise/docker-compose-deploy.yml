@@ -5,8 +5,8 @@ services:
     image: google/cloud-sdk:464.0.0
     volumes:
       - gcp-creds:/creds
-      - .:/HotelWise
-    working_dir: /HotelWise
+      - .:/HotelWiseWeb
+    working_dir: /HotelWiseWeb
     environment:
       - CLOUDSDK_CONFIG=/creds
 
