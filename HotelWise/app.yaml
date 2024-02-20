@@ -1,5 +1,5 @@
 runtime: python39
-entrypoint: gunicorn -b :$PORT --chdir HotelWise/ HotelWise.wsgi:application
+entrypoint: gunicorn -b :$PORT --chdir HotelWiseWeb/ HotelWise.wsgi:application
 
 handlers:
   - url: /static

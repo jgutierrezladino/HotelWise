@@ -17,3 +17,9 @@
 __pycache__/
 # Ignored by the build system
 /setup.cfg
+
+docker-compose.yml
+docker-compose-deploy.yml
+Dockerfile
+Makefile
+README.md
