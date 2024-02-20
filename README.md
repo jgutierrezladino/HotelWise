@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="HotelWise/HotelWiseWeb/_src/HotelWiseLogo.Horizontal.png">
+    <img src="_src/HotelWiseLogo.Horizontal.png">
 </p>
 
 # Página web del Proyecto <!-- omit in toc --> 

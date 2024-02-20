@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="HotelWiseWeb/_src/HotelWiseLogo.Horizontal.png">
+    <img src="../_src/HotelWiseLogo.Horizontal.png">
 </p>
 
 # Despliegue de la Aplicacion Web del Proyecto <!-- omit in toc --> 
