@@ -151,4 +151,5 @@ Si tienes alguna pregunta, comentario o problema con la página web de HotelWise
 
 - [Documentación completa del proyecto](/HotelWise)
 - [Repositorio de código fuente](https://github.com/jgutierrezladino/HotelWise/tree/HotelWiseWeb)
-- [Sitio web en vivo](https://www.soyhenry.com)
+- [Sitio web en vivo](https://hotelwiseweb.uk.r.appspot.com)
+
