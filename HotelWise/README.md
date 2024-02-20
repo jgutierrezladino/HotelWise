@@ -2,7 +2,7 @@
     <img src="HotelWiseWeb/_src/HotelWiseLogo.Horizontal.png">
 </p>
 
-# Página web del Proyecto <!-- omit in toc --> 
+# Despliegue de la Aplicacion Web del Proyecto <!-- omit in toc --> 
 
 ## Indice <!-- omit in toc --> 
 
@@ -10,5 +10,5 @@
 
 ## Descripción
 
-SOLO DJANGO
+Partiendo de la web local creada en Django, se hace docker y ...
 
