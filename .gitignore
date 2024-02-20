@@ -1,9 +1,7 @@
 # Unused Project Folders
 HotelWise/home/templates/pruebas/
-/static
-
-# Private Keys
-hotelwise-a2fc8-firebase-adminsdk-oyn97-080c47d8f3.json
+static/
+app_prueba/
 
 # Editors
 .vscode/
@@ -133,5 +131,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-static/
-app_prueba/
