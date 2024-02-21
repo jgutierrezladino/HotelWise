@@ -88,7 +88,7 @@ Herramientas y entornos que utiliza el proyecto:
 
 Se utilizará el servicio de hosting web de Google Cloud Platform (GCP) que ofrece una variedad de opciones para alojar sitios, aplicaciones y servicios web en la infraestructura global de Google. El hosting web de Google ofrece una plataforma flexible, escalable y segura para alojar tus aplicaciones web y servicios web. Con una variedad de opciones de servicio, integración con otros servicios de GCP y una infraestructura global de alto rendimiento, GCP es una excelente opción para alojar tus proyectos web en la nube.
 
-###  [Despliegue de la aplicacion web de HotelWise](https://github.com/jgutierrezladino/HotelWise/blob/HotelWiseWeb/HotelWise)
+###  [Despliegue de la aplicacion web de HotelWise](https://github.com/jgutierrezladino/HotelWise/tree/HotelWiseWeb/HotelWise)
 
 ## Lenguajes de Programación
 
