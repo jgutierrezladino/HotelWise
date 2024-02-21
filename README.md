@@ -154,6 +154,6 @@ Si tienes alguna pregunta, comentario o problema con la página web de HotelWise
 ## Enlaces adicionales
 
 - [Documentación completa del proyecto](/HotelWise)
-- [Repositorio de código fuente](https://github.com/jgutierrezladino/HotelWise/tree/HotelWiseWeb/HotelWise.git)
+- [Repositorio de código fuente](https://github.com/jgutierrezladino/HotelWise/tree/HotelWiseWeb.git)
 - [Sitio web en vivo](https://hotelwiseweb.uk.r.appspot.com)
 
