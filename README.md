@@ -50,12 +50,12 @@ Asegúrate de tener Python instalado. Recomiendo usar un entorno virtual para in
 4. Ejecuta el servidor Django.
 
 
-Para desplegar la aplicación en Firebase:
+Para desplegar la aplicación en Google Cloud Platform:
 
-1. Configura una cuenta de Firebase.
-2. Instala Firebase CLI.
-3. Inicializa tu proyecto Firebase.
-4. Despliega tu aplicación usando Firebase Hosting.
+1. Configura una cuenta de GCP.
+2. Instala GCP CLI.
+3. Inicializa tu proyecto GCP.
+4. Despliega tu aplicación usando GCP App Engine.
 
 ### Procedimiento
 
@@ -82,7 +82,7 @@ Herramientas y entornos que utiliza el proyecto:
 - ```Django```: Framework de desarrollo web de alto nivel en Python que fomenta el desarrollo rápido y limpio.
 - ```Bootstrap```: Framework que facilita la creación de interfaces de usuario responsivas y modernas para sitios y aplicaciones web.
 - ```Visual Studio Code```: Editor de código fuente desarrollado por Microsoft para Windows, Linux y macOS.
-- ```Firebase```: Hosting Web.
+- ```GCP App Encgine```: Hosting Web.
 
 ## Hosting
 

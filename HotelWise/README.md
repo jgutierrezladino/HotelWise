@@ -26,7 +26,7 @@
 
 ## Descripción
 
-Partiendo de la web local creada en Django, se hace docker y ...
+Partiendo de la App creada en forma local en la rama [HotelWiseWeb](https://github.com/jgutierrezladino/HotelWise/tree/HotelWiseWeb/) creada en Django, se procede a llevarla a produccion. Para ello se creará un contenedor con los archivos de la aplicación, utilizando Docker y luego se desplegará en GCP utilizando el servicio App Engine que lo publicará en la web.
 
 ## Despliegue de una Aplicación Django en Google App Engine usando Docker
 
