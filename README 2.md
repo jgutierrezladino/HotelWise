@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="_src/logo/HotelWiseLogo.png">
+    <img src="_src/HotelWiseLogo.Horizontal.png">
 </p>
 
 # Página web del Proyecto <!-- omit in toc --> 
@@ -11,38 +11,35 @@
 - [Objetivos Particulares](#objetivos-particulares)
 - [Instalación y Despliegue](#instalación-y-despliegue)
   - [Procedimiento](#procedimiento)
-  - [Uso](#uso)
-  - [Frameworks de Trabajo](#frameworks-de-trabajo)
-  - [Hosting](#hosting)
-    - [Despliegue de la aplicacion web de HotelWise](#despliegue-de-la-aplicacion-web-de-hotelwise)
-  - [Lenguajes de Programación](#lenguajes-de-programación)
-  - [Ejemplos](#ejemplos)
-- [Contribuciones](#contribuciones)
+- [Uso](#uso)
+- [Frameworks de Trabajo](#frameworks-de-trabajo)
+- [Hosting](#hosting)
+  - [Despliegue de la aplicacion web de HotelWise](#despliegue-de-la-aplicacion-web-de-hotelwise)
+- [Lenguajes de Programación](#lenguajes-de-programación)
+- [Ejemplos](#ejemplos)
+- [Contribución](#contribución)
 - [Créditos](#créditos)
-- [Licencias](#licencias)
+- [Licencia](#licencia)
 - [Contacto](#contacto)
 - [Enlaces adicionales](#enlaces-adicionales)
 
----
-
-# Descripción
+## Descripción
 
 La página web de HotelWise es una plataforma diseñada para crear recomendaciones de hoteles.
 Permitiendo a los usuarios encontrar la mejor opcion según sus criterios de busqueda, los cuales son curados por una herramienta de Machine Learning para ofrecerle la mejor experiencia en su estadía.
 
-# Flujo de Trabajo
+## Flujo de Trabajo
 
-**Diagrama de Gantt**
-
+Diagrama de Gantt
 <p align="center">
     <img src="screenshots/Gantt_Proyecto_Grupal_HenryDS.Web.png">
 </p>
 
-# Objetivos Particulares
+## Objetivos Particulares
 
 Diseño y desarrollo del sitio web del proyecto,  implementando las características y funcionalidades necesarias para poder hacer las mejores recomendaciones de hoteles. Dando a los clientes una experiencia superadora y otorgando información clara sobre sus consultas, haciendo hincapié en la facilidad para navegar el sitio.
 
-# Instalación y Despliegue
+## Instalación y Despliegue
 
 
 Asegúrate de tener Python instalado. Recomiendo usar un entorno virtual para instalar las dependencias del proyecto.
@@ -60,10 +57,10 @@ Para desplegar la aplicación en Google Cloud Platform:
 3. Inicializa tu proyecto GCP.
 4. Despliega tu aplicación usando GCP App Engine.
 
-## Procedimiento
+### Procedimiento
 
 ```bash
-git clone https://github.com/HotelWise/HotelWise/tree/HotelWiseWeb.git
+git clone https://github.com/jgutierrezladino/HotelWise/tree/HotelWiseWeb.git
 
 python3 -m venv myenv
 source myenv/bin/activate
@@ -91,7 +88,7 @@ Herramientas y entornos que utiliza el proyecto:
 
 Se utilizará el servicio de hosting web de Google Cloud Platform (GCP) que ofrece una variedad de opciones para alojar sitios, aplicaciones y servicios web en la infraestructura global de Google. El hosting web de Google ofrece una plataforma flexible, escalable y segura para alojar tus aplicaciones web y servicios web. Con una variedad de opciones de servicio, integración con otros servicios de GCP y una infraestructura global de alto rendimiento, GCP es una excelente opción para alojar tus proyectos web en la nube.
 
-###  [Despliegue de la aplicacion web de HotelWise](https://github.com/HotelWise/HotelWise/tree/HotelWiseWeb/HotelWise)
+###  [Despliegue de la aplicacion web de HotelWise](https://github.com/jgutierrezladino/HotelWise/tree/HotelWiseWeb/HotelWise)
 
 ## Lenguajes de Programación
 
@@ -135,7 +132,7 @@ Este proyecto utiliza los siguientes:
 
 ---
 
-# Contribuciones
+# Contribución
 
 ¡Estamos abiertos a contribuciones! Si tienes ideas de mejora, problemas que reportar o características nuevas que te gustaría añadir, no dudes en abrir una solicitud de extracción o un problema en este repositorio.
 
@@ -181,5 +178,5 @@ Si tienes alguna pregunta, comentario o problema con la página web de HotelWise
 # Enlaces adicionales
 
 - [Documentación completa del proyecto](https://github.com/HotelWise/HotelWise)
-- [Repositorio de código fuente de la Web](https://github.com/HotelWise/HotelWise/tree/HotelWiseWeb)
+- [Repositorio de la Rama](https://github.com/HotelWise/HotelWise/tree/HotelWiseWeb)
 - [Sitio web en vivo](https://hotelwiseweb.uk.r.appspot.com)
